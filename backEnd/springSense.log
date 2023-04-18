@@ -1,0 +1,10 @@
+[2023-03-0716:42:22] [ INFO ] [ProductoService:35] La tabla Producto no tiene registros
+[2023-03-0716:42:23] [ INFO ] [ProductoService:35] La tabla Producto no tiene registros
+[2023-03-0716:42:23] [ INFO ] [CategoriaService:35] La tabla Categoria no tiene registros
+[2023-03-0716:42:24] [ INFO ] [CategoriaService:35] La tabla Categoria no tiene registros
+[2023-03-2121:01:56] [ ERROR] [CategoriaService:35] No existe un rol con el id: 1
+[2023-03-2314:11:10] [ INFO ] [ProductoService:42] Se creo una nueva reserva
+[2023-03-2319:55:11] [ INFO ] [ProductoService:42] Se creo una nueva reserva
+[2023-03-2320:02:41] [ INFO ] [ProductoService:42] Se creo una nueva reserva
+[2023-03-2320:54:20] [ INFO ] [ProductoService:42] Se creo una nueva reserva
+[2023-03-2419:26:42] [ INFO ] [ProductoService:42] Se creo una nueva reserva

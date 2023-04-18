@@ -1,0 +1,78 @@
+@use '/src/sassStyles/globals';
+
+.createUserContent {
+    height: 100%;
+}
+
+.formCreateUser{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    position: relative;
+    height: 100%;
+    margin: auto;
+
+    button {
+        margin-top: 3.5rem
+    }
+
+    .form-control {
+        width: 100%;
+        position: relative;
+    }
+
+    .name-surname {
+        gap: 10px;
+    }
+
+    .wrapper-error {
+        position: relative;
+        width: 100%;
+    }
+}
+
+
+.CreateUserContainer {
+    justify-content: center;
+    align-items: center;
+    background-color: globals.$bg-gray;
+    height: calc(100vh - globals.$footer-height - globals.$header-height);
+}
+
+.name-surname {
+    width: 100%;
+    display: flex;
+
+    .form-control {
+        width: 100%;
+    }
+}
+
+.link-button span{
+    color: globals.$text-link;
+}
+
+@media screen and (max-width: globals.$bp-tablet) {
+    .formCreateUser {
+        width: 350px;
+
+        button {
+            width: 100%;
+        }
+        .name-surname {
+            flex-direction: column;
+            gap: 0;
+        }
+    }
+
+
+    
+}
+
+@media screen and (max-width: globals.$bp-mobile) {
+    .formCreateUser {
+        width: 300px;
+    }
+}

@@ -1,0 +1,121 @@
+@use '/src/sassStyles/globals';
+
+.menu-drawer-mobile {
+  z-index: 9999999;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  background-color: globals.$bg-white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .user-profile{
+    margin-right: 0px;
+  }
+
+  .user-icon-mobile{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+
+  .welcome-user{
+    text-align: right;
+  }
+
+  .logout-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  .logout-drawer{
+    color: globals.$text-dark;
+    font-weight: globals.$font-weight-md;
+    justify-content: end;
+
+    span {
+      color: globals.$primary-color;
+    }
+  }
+
+  .logout-drawer::after{
+    content: "";
+    position: absolute;
+    background-color: globals.$bg-dark;
+    height: 1px;
+    bottom: 60px;
+    left: 10px;
+    right: 10px;
+  }
+  
+
+  .close-menu {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: globals.$text-light;
+    font-size: 1.5rem;
+  }
+
+  &__container {
+    padding: 1rem;
+  }
+  
+  &__header {
+    background-color: globals.$primary-color;
+    height: 175px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-shrink: 0;
+  }
+
+  &__body {
+    height: 100%;
+    text-align: right;
+
+    .menu-drawer-mobile__container {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    hr {
+      margin: 1rem 0;
+    }
+
+    .link-button {
+      padding: 0;
+      font-size: inherit;
+    }
+  }
+
+  &__footer {
+    height: 60px;
+    font-size: globals.$font-size-5;
+    display: flex;
+    justify-content: flex-end;
+
+    a {
+      color: globals.$text-dark;
+    }
+
+    .social-media-icon {
+      padding-inline: 0.3rem;
+    }
+  }
+
+}
+
+
+@media screen and (min-width: globals.$bp-menu-drawer) {
+  .menu-drawer-mobile {
+    display: none;
+  }
+}

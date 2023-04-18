@@ -1,0 +1,752 @@
+<<<<<<< HEAD
+[2023-03-2114:14:26] [ INFO ] [ProductoService:78] No hay registro de productos en esa categoria o no se encontro categoria
+[2023-03-2114:14:28] [ INFO ] [ProductoService:78] No hay registro de productos en esa categoria o no se encontro categoria
+=======
+[2023-03-1714:22:06] [ INFO ] [CategoriaService:39] La tabla Ciudad no tiene registros
+[2023-03-1714:22:15] [ INFO ] [CategoriaService:75] Se elimino el registro con el id: 1 de la tabla Categoria
+[2023-03-1714:22:15] [ INFO ] [CategoriaService:69] Se modifico el registro con el id: 1 de la tabla Categoria
+[2023-03-1714:22:15] [ ERROR] [CategoriaService:65] No existe un registro en la tabla Categoria con el id: 1
+[2023-03-1714:22:15] [ INFO ] [CategoriaService:35] La tabla Categoria no tiene registros
+[2023-03-1714:22:15] [ INFO ] [CategoriaService:29] Se creo una nueva categoria: Departamentos
+[2023-03-1714:22:15] [ ERROR] [CategoriaService:49] No existe una categoria con el id:1
+[2023-03-1714:22:15] [ ERROR] [CategoriaService:25] Ya existe una categoria con el titulo: Departamentos
+[2023-03-1714:22:15] [ ERROR] [CategoriaService:57] No existe una categoria con el titulo:titulo
+[2023-03-1714:22:50] [ INFO ] [CategoriaService:75] Se elimino el registro con el id: 1 de la tabla Categoria
+[2023-03-1714:22:50] [ INFO ] [CategoriaService:69] Se modifico el registro con el id: 1 de la tabla Categoria
+[2023-03-1714:22:50] [ ERROR] [CategoriaService:65] No existe un registro en la tabla Categoria con el id: 1
+[2023-03-1714:22:51] [ INFO ] [CategoriaService:35] La tabla Categoria no tiene registros
+[2023-03-1714:22:51] [ INFO ] [CategoriaService:29] Se creo una nueva categoria: Departamentos
+[2023-03-1714:22:51] [ ERROR] [CategoriaService:49] No existe una categoria con el id:1
+[2023-03-1714:22:51] [ ERROR] [CategoriaService:25] Ya existe una categoria con el titulo: Departamentos
+[2023-03-1714:22:51] [ ERROR] [CategoriaService:57] No existe una categoria con el titulo:titulo
+[2023-03-1714:23:11] [ INFO ] [ProductoService:88] No hay registro de productos en esa ciudad o no se encontro ciudad
+[2023-03-1714:23:11] [ INFO ] [ProductoService:36] La tabla Producto no tiene registros
+[2023-03-1714:23:11] [ ERROR] [ProductoService:100] No existe un registro en la tabla Producto con el id: 1
+[2023-03-1714:23:11] [ ERROR] [ProductoService:25] Ya existe una producto con el titulo: Departamento
+[2023-03-1714:23:11] [ INFO ] [ProductoService:75] No hay registro de productos en esa categoria o no se encontro categoria
+[2023-03-1714:23:11] [ INFO ] [ProductoService:110] Se elimino el registro con el id: 1 de la tabla Productos
+[2023-03-1714:29:34] [ INFO ] [ProductoService:88] No hay registro de productos en esa ciudad o no se encontro ciudad
+[2023-03-1714:29:34] [ INFO ] [ProductoService:36] La tabla Producto no tiene registros
+[2023-03-1714:29:34] [ ERROR] [ProductoService:100] No existe un registro en la tabla Producto con el id: 1
+[2023-03-1714:29:34] [ INFO ] [ProductoService:104] Se modifico el registro con el id: 1 de la tabla Producto
+[2023-03-1714:29:34] [ INFO ] [ProductoService:30] Se creo un nuevo producto: Departamento
+[2023-03-1714:29:34] [ ERROR] [ProductoService:25] Ya existe una producto con el titulo: Departamento
+[2023-03-1714:29:34] [ INFO ] [ProductoService:75] No hay registro de productos en esa categoria o no se encontro categoria
+[2023-03-1714:29:34] [ INFO ] [ProductoService:110] Se elimino el registro con el id: 1 de la tabla Productos
+>>>>>>> ac74dbc5057a92bd44329e8ad9e3433850904e30
+[2023-03-2415:25:21] [ ERROR] [ProductoService:37] No existe un usuario con el email:burgosfacundo
+[2023-03-2415:25:21] [ ERROR] [ProductoService:32] No existe un producto con el id:1
+[2023-03-2415:25:21] [ INFO ] [ProductoService:42] Se creo una nueva reserva
+[2023-03-2415:25:21] [ ERROR] [ProductoService:48] No existe un producto con el id:0
+[2023-03-2415:25:22] [ ERROR] [CategoriaService:48] No existe una caracteristica con el id:1
+[2023-03-2415:25:22] [ INFO ] [CategoriaService:34] La tabla Caracteristica no tiene registros
+[2023-03-2415:25:22] [ ERROR] [CategoriaService:56] No existe una caracteristica con el titulo:titulo
+[2023-03-2415:25:22] [ ERROR] [CategoriaService:23] Ya existe una caracteristica con el titulo: wifi
+[2023-03-2415:25:22] [ INFO ] [CategoriaService:75] Se elimino el registro con el id: 1 de la tabla Caracteristicas
+[2023-03-2415:25:22] [ INFO ] [CategoriaService:68] Se modifico el registro con el id: 1 de la tabla Caracteristica
+[2023-03-2415:25:22] [ INFO ] [CategoriaService:27] Se creo una nueva caracteristica: wifi
+[2023-03-2415:25:22] [ ERROR] [CategoriaService:64] No existe un registro en la tabla Caracteristica con el id: 1
+[2023-03-2415:25:33] [ ERROR] [CategoriaService:47] No existe una politica con el id:1
+[2023-03-2415:25:33] [ INFO ] [CategoriaService:74] Se elimino el registro con el id: 1 de la tabla Politica
+[2023-03-2415:25:33] [ ERROR] [CategoriaService:63] No existe un registro en la tabla Politica con el id: 1
+[2023-03-2415:25:33] [ ERROR] [CategoriaService:22] Ya existe una politica con el titulo: seguridad
+[2023-03-2415:25:33] [ INFO ] [CategoriaService:33] La tabla Politica no tiene registros
+[2023-03-2415:25:33] [ INFO ] [CategoriaService:67] Se modifico el registro con el id: 1 de la tabla Politica
+[2023-03-2415:25:33] [ INFO ] [CategoriaService:26] Se creo una nueva politica: seguridad
+[2023-03-2415:25:33] [ ERROR] [CategoriaService:55] No existe una politica con el titulo:nombre
+[2023-03-2415:25:33] [ INFO ] [CategoriaService:76] Se elimino el registro con el id: 1 de la tabla Categoria
+[2023-03-2415:25:33] [ INFO ] [CategoriaService:69] Se modifico el registro con el id: 1 de la tabla Categoria
+[2023-03-2415:25:33] [ ERROR] [CategoriaService:65] No existe un registro en la tabla Categoria con el id: 1
+[2023-03-2415:25:33] [ INFO ] [CategoriaService:35] La tabla Categoria no tiene registros
+[2023-03-2415:25:33] [ INFO ] [CategoriaService:28] Se creo una nueva categoria: Departamentos
+[2023-03-2415:25:33] [ ERROR] [CategoriaService:49] No existe una categoria con el id:1
+[2023-03-2415:25:33] [ ERROR] [CategoriaService:57] No existe una categoria con el titulo:titulo
+[2023-03-2415:25:33] [ ERROR] [CategoriaService:24] Ya existe una categoria con el titulo: Departamentos
+[2023-03-2415:25:33] [ ERROR] [CategoriaService:62] No existe una imagen con el titulo:imagen
+[2023-03-2415:25:33] [ ERROR] [CategoriaService:70] No existe un registro en la tabla Imagen con el id: 1
+[2023-03-2415:25:33] [ INFO ] [CategoriaService:74] Se modifico el registro con el id: 1 de la tabla Imagen
+[2023-03-2415:25:33] [ ERROR] [CategoriaService:54] No existe una imagen con el id:1
+[2023-03-2415:25:33] [ ERROR] [CategoriaService:25] Ya existe una imagen con el titulo: imagen
+[2023-03-2415:25:33] [ INFO ] [CategoriaService:81] Se elimino el registro con el id: 1 de la tabla Imagen
+[2023-03-2415:25:33] [ ERROR] [CategoriaService:29] No existe un producto con el id: 1
+[2023-03-2415:25:33] [ INFO ] [CategoriaService:33] Se creo una nueva imagen: imagen
+[2023-03-2415:25:33] [ INFO ] [CategoriaService:40] La tabla Imagen no tiene registros
+[2023-03-2415:25:33] [ INFO ] [CategoriaService:69] Se elimino el registro con el id: 1 de la tabla Usuarios
+[2023-03-2415:25:33] [ ERROR] [CategoriaService:35] No existe un rol con el id: 1
+[2023-03-2415:25:33] [ ERROR] [CategoriaService:31] El usuario con el email:email ya existe en la base de datos
+[2023-03-2415:25:33] [ INFO ] [CategoriaService:46] La tabla Usuario no tiene registros
+[2023-03-2415:25:33] [ INFO ] [ProductoService:74] La tabla Producto no tiene registros
+[2023-03-2415:25:33] [ INFO ] [ProductoService:113] No hay registro de productos en esa ciudad o no se encontro ciudad
+[2023-03-2415:25:33] [ INFO ] [ProductoService:61] La tabla Producto no tiene registros
+[2023-03-2415:25:33] [ ERROR] [ProductoService:152] No existe un registro en la tabla Producto con el id: 1
+[2023-03-2415:25:33] [ INFO ] [ProductoService:156] Se modifico el registro con el id: 1 de la tabla Producto
+[2023-03-2415:25:33] [ INFO ] [ProductoService:54] Se creo un nuevo producto: Departamento
+[2023-03-2415:25:33] [ ERROR] [ProductoService:30] Ya existe un producto con el titulo: Departamento
+[2023-03-2415:25:33] [ INFO ] [ProductoService:100] No hay registro de productos en esa categoria o no se encontro categoria
+[2023-03-2415:25:33] [ ERROR] [ProductoService:34] No existe una ciudad con el id: 1
+[2023-03-2415:25:33] [ INFO ] [ProductoService:163] Se elimino el registro con el id: 1 de la tabla Productos
+[2023-03-2415:25:33] [ ERROR] [CategoriaService:65] No existe un registro en la tabla Ciudad con el id: 1
+[2023-03-2415:25:33] [ ERROR] [CategoriaService:57] No existe una ciudad con el nombre:nombre
+[2023-03-2415:25:33] [ INFO ] [CategoriaService:69] Se modifico el registro con el id: 1 de la tabla Ciudad
+[2023-03-2415:25:33] [ ERROR] [CategoriaService:49] No existe una ciudad con el id:1
+[2023-03-2415:25:33] [ INFO ] [CategoriaService:76] Se elimino el registro con el id: 1 de la tabla Ciudad
+[2023-03-2415:25:33] [ ERROR] [CategoriaService:24] Ya existe una ciudad con el nombre: Mar del Plata
+[2023-03-2415:25:33] [ INFO ] [CategoriaService:35] La tabla Ciudad no tiene registros
+[2023-03-2415:25:33] [ INFO ] [CategoriaService:28] Se creo una nueva ciudad: Mar del Plata
+<<<<<<< HEAD
+[2023-03-2915:06:19] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:06:20] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:06:43] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:06:44] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:13:16] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:13:17] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:13:19] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:13:27] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:13:29] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:13:43] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:13:44] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:14:19] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:14:20] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:17:05] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:19:05] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:19:49] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:20:20] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:20:21] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:20:41] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:21:21] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:21:36] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:21:37] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:21:43] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:22:04] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:22:05] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:22:16] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+[2023-03-2915:22:18] [ ERROR] [ProductoService:63] No existe un producto con el usuario :14
+=======
+[2023-03-3000:50:14] [ ERROR] [ProductoService:45] No existe un usuario con el email:burgosfacundo
+[2023-03-3000:50:14] [ ERROR] [ProductoService:40] No existe un producto con el id:1
+[2023-03-3000:50:14] [ INFO ] [ProductoService:50] Se creo una nueva reserva
+[2023-03-3000:50:14] [ ERROR] [ProductoService:57] No existe un producto con el id:0
+[2023-03-3000:50:14] [ ERROR] [CategoriaService:48] No existe una caracteristica con el id:1
+[2023-03-3000:50:14] [ INFO ] [CategoriaService:34] La tabla Caracteristica no tiene registros
+[2023-03-3000:50:14] [ ERROR] [CategoriaService:56] No existe una caracteristica con el titulo:titulo
+[2023-03-3000:50:14] [ ERROR] [CategoriaService:23] Ya existe una caracteristica con el titulo: wifi
+[2023-03-3000:50:14] [ INFO ] [CategoriaService:75] Se elimino el registro con el id: 1 de la tabla Caracteristicas
+[2023-03-3000:50:14] [ INFO ] [CategoriaService:68] Se modifico el registro con el id: 1 de la tabla Caracteristica
+[2023-03-3000:50:14] [ INFO ] [CategoriaService:27] Se creo una nueva caracteristica: wifi
+[2023-03-3000:50:14] [ ERROR] [CategoriaService:64] No existe un registro en la tabla Caracteristica con el id: 1
+[2023-03-3000:50:26] [ ERROR] [CategoriaService:44] No existe un producto con el id:0
+[2023-03-3000:50:26] [ ERROR] [CategoriaService:33] No existe un usuario con el id:1
+[2023-03-3000:50:26] [ ERROR] [CategoriaService:29] No existe un producto con el id:1
+[2023-03-3000:50:26] [ INFO ] [CategoriaService:38] Se creo una nueva puntuacion
+[2023-03-3000:50:26] [ INFO ] [CategoriaService:76] Se elimino el registro con el id: 1 de la tabla Categoria
+[2023-03-3000:50:26] [ INFO ] [CategoriaService:69] Se modifico el registro con el id: 1 de la tabla Categoria
+[2023-03-3000:50:26] [ ERROR] [CategoriaService:65] No existe un registro en la tabla Categoria con el id: 1
+[2023-03-3000:50:26] [ INFO ] [CategoriaService:35] La tabla Categoria no tiene registros
+[2023-03-3000:50:26] [ INFO ] [CategoriaService:28] Se creo una nueva categoria: Departamentos
+[2023-03-3000:50:26] [ ERROR] [CategoriaService:49] No existe una categoria con el id:1
+[2023-03-3000:50:26] [ ERROR] [CategoriaService:57] No existe una categoria con el titulo:titulo
+[2023-03-3000:50:26] [ ERROR] [CategoriaService:24] Ya existe una categoria con el titulo: Departamentos
+[2023-03-3000:50:26] [ ERROR] [CategoriaService:62] No existe una imagen con el titulo:imagen
+[2023-03-3000:50:26] [ ERROR] [CategoriaService:70] No existe un registro en la tabla Imagen con el id: 1
+[2023-03-3000:50:26] [ INFO ] [CategoriaService:74] Se modifico el registro con el id: 1 de la tabla Imagen
+[2023-03-3000:50:26] [ ERROR] [CategoriaService:54] No existe una imagen con el id:1
+[2023-03-3000:50:26] [ ERROR] [CategoriaService:25] Ya existe una imagen con el titulo: imagen
+[2023-03-3000:50:26] [ INFO ] [CategoriaService:81] Se elimino el registro con el id: 1 de la tabla Imagen
+[2023-03-3000:50:26] [ ERROR] [CategoriaService:29] No existe un producto con el id: 1
+[2023-03-3000:50:26] [ INFO ] [CategoriaService:33] Se creo una nueva imagen: imagen
+[2023-03-3000:50:26] [ INFO ] [CategoriaService:40] La tabla Imagen no tiene registros
+[2023-03-3000:50:26] [ INFO ] [CategoriaService:69] Se elimino el registro con el id: 1 de la tabla Usuarios
+[2023-03-3000:50:26] [ ERROR] [CategoriaService:35] No existe un rol con el id: 1
+[2023-03-3000:50:26] [ ERROR] [CategoriaService:31] El usuario con el email:email ya existe en la base de datos
+[2023-03-3000:50:26] [ INFO ] [CategoriaService:46] La tabla Usuario no tiene registros
+[2023-03-3000:50:26] [ INFO ] [ProductoService:68] La tabla Producto no tiene registros
+[2023-03-3000:50:26] [ INFO ] [ProductoService:108] No hay registro de productos en esa ciudad o no se encontro ciudad
+[2023-03-3000:50:26] [ INFO ] [ProductoService:55] La tabla Producto no tiene registros
+[2023-03-3000:50:26] [ ERROR] [ProductoService:147] No existe un registro para editar en la tabla Producto con el id: 1
+[2023-03-3000:50:26] [ INFO ] [ProductoService:151] Se modifico el registro con el id: 1 de la tabla Producto
+[2023-03-3000:50:26] [ INFO ] [ProductoService:48] Se creo un nuevo producto: Departamento
+[2023-03-3000:50:26] [ ERROR] [ProductoService:29] Ya existe un producto con el titulo: Departamento
+[2023-03-3000:50:26] [ INFO ] [ProductoService:95] No hay registro de productos en esa categoria o no se encontro categoria
+[2023-03-3000:50:26] [ ERROR] [ProductoService:33] No existe una ciudad con el id: 1
+[2023-03-3000:50:26] [ INFO ] [ProductoService:158] Se elimino el registro con el id: 1 de la tabla Productos
+[2023-03-3000:50:26] [ ERROR] [CategoriaService:65] No existe un registro en la tabla Ciudad con el id: 1
+[2023-03-3000:50:26] [ ERROR] [CategoriaService:57] No existe una ciudad con el nombre:nombre
+[2023-03-3000:50:26] [ INFO ] [CategoriaService:69] Se modifico el registro con el id: 1 de la tabla Ciudad
+[2023-03-3000:50:26] [ ERROR] [CategoriaService:49] No existe una ciudad con el id:1
+[2023-03-3000:50:26] [ INFO ] [CategoriaService:76] Se elimino el registro con el id: 1 de la tabla Ciudad
+[2023-03-3000:50:26] [ ERROR] [CategoriaService:24] Ya existe una ciudad con el nombre: Mar del Plata
+[2023-03-3000:50:26] [ INFO ] [CategoriaService:35] La tabla Ciudad no tiene registros
+[2023-03-3000:50:26] [ INFO ] [CategoriaService:28] Se creo una nueva ciudad: Mar del Plata
+[2023-03-3001:40:02] [ ERROR] [ProductoService:45] No existe un usuario con el email:burgosfacundo
+[2023-03-3001:40:02] [ ERROR] [ProductoService:40] No existe un producto con el id:1
+[2023-03-3001:40:02] [ INFO ] [ProductoService:50] Se creo una nueva reserva
+[2023-03-3001:40:02] [ ERROR] [ProductoService:57] No existe un producto con el id:0
+[2023-03-3001:40:02] [ ERROR] [CategoriaService:48] No existe una caracteristica con el id:1
+[2023-03-3001:40:02] [ INFO ] [CategoriaService:34] La tabla Caracteristica no tiene registros
+[2023-03-3001:40:02] [ ERROR] [CategoriaService:56] No existe una caracteristica con el titulo:titulo
+[2023-03-3001:40:02] [ ERROR] [CategoriaService:23] Ya existe una caracteristica con el titulo: wifi
+[2023-03-3001:40:02] [ INFO ] [CategoriaService:75] Se elimino el registro con el id: 1 de la tabla Caracteristicas
+[2023-03-3001:40:02] [ INFO ] [CategoriaService:68] Se modifico el registro con el id: 1 de la tabla Caracteristica
+[2023-03-3001:40:02] [ INFO ] [CategoriaService:27] Se creo una nueva caracteristica: wifi
+[2023-03-3001:40:02] [ ERROR] [CategoriaService:64] No existe un registro en la tabla Caracteristica con el id: 1
+[2023-03-3001:40:12] [ ERROR] [CategoriaService:44] No existe un producto con el id:0
+[2023-03-3001:40:12] [ ERROR] [CategoriaService:33] No existe un usuario con el id:1
+[2023-03-3001:40:12] [ ERROR] [CategoriaService:29] No existe un producto con el id:1
+[2023-03-3001:40:12] [ INFO ] [CategoriaService:38] Se creo una nueva puntuacion
+[2023-03-3001:40:13] [ INFO ] [CategoriaService:76] Se elimino el registro con el id: 1 de la tabla Categoria
+[2023-03-3001:40:13] [ INFO ] [CategoriaService:69] Se modifico el registro con el id: 1 de la tabla Categoria
+[2023-03-3001:40:13] [ ERROR] [CategoriaService:65] No existe un registro en la tabla Categoria con el id: 1
+[2023-03-3001:40:13] [ INFO ] [CategoriaService:35] La tabla Categoria no tiene registros
+[2023-03-3001:40:13] [ INFO ] [CategoriaService:28] Se creo una nueva categoria: Departamentos
+[2023-03-3001:40:13] [ ERROR] [CategoriaService:49] No existe una categoria con el id:1
+[2023-03-3001:40:13] [ ERROR] [CategoriaService:57] No existe una categoria con el titulo:titulo
+[2023-03-3001:40:13] [ ERROR] [CategoriaService:24] Ya existe una categoria con el titulo: Departamentos
+[2023-03-3001:40:13] [ ERROR] [CategoriaService:62] No existe una imagen con el titulo:imagen
+[2023-03-3001:40:13] [ ERROR] [CategoriaService:70] No existe un registro en la tabla Imagen con el id: 1
+[2023-03-3001:40:13] [ INFO ] [CategoriaService:74] Se modifico el registro con el id: 1 de la tabla Imagen
+[2023-03-3001:40:13] [ ERROR] [CategoriaService:54] No existe una imagen con el id:1
+[2023-03-3001:40:13] [ ERROR] [CategoriaService:25] Ya existe una imagen con el titulo: imagen
+[2023-03-3001:40:13] [ INFO ] [CategoriaService:81] Se elimino el registro con el id: 1 de la tabla Imagen
+[2023-03-3001:40:13] [ ERROR] [CategoriaService:29] No existe un producto con el id: 1
+[2023-03-3001:40:13] [ INFO ] [CategoriaService:33] Se creo una nueva imagen: imagen
+[2023-03-3001:40:13] [ INFO ] [CategoriaService:40] La tabla Imagen no tiene registros
+[2023-03-3001:40:13] [ INFO ] [CategoriaService:69] Se elimino el registro con el id: 1 de la tabla Usuarios
+[2023-03-3001:40:13] [ ERROR] [CategoriaService:35] No existe un rol con el id: 1
+[2023-03-3001:40:13] [ ERROR] [CategoriaService:31] El usuario con el email:email ya existe en la base de datos
+[2023-03-3001:40:13] [ INFO ] [CategoriaService:46] La tabla Usuario no tiene registros
+[2023-03-3001:40:13] [ INFO ] [ProductoService:68] La tabla Producto no tiene registros
+[2023-03-3001:40:13] [ INFO ] [ProductoService:108] No hay registro de productos en esa ciudad o no se encontro ciudad
+[2023-03-3001:40:13] [ INFO ] [ProductoService:55] La tabla Producto no tiene registros
+[2023-03-3001:40:13] [ ERROR] [ProductoService:147] No existe un registro para editar en la tabla Producto con el id: 1
+[2023-03-3001:40:13] [ INFO ] [ProductoService:151] Se modifico el registro con el id: 1 de la tabla Producto
+[2023-03-3001:40:13] [ INFO ] [ProductoService:48] Se creo un nuevo producto: Departamento
+[2023-03-3001:40:13] [ ERROR] [ProductoService:29] Ya existe un producto con el titulo: Departamento
+[2023-03-3001:40:13] [ INFO ] [ProductoService:95] No hay registro de productos en esa categoria o no se encontro categoria
+[2023-03-3001:40:13] [ ERROR] [ProductoService:33] No existe una ciudad con el id: 1
+[2023-03-3001:40:13] [ INFO ] [ProductoService:158] Se elimino el registro con el id: 1 de la tabla Productos
+[2023-03-3001:40:13] [ ERROR] [CategoriaService:65] No existe un registro en la tabla Ciudad con el id: 1
+[2023-03-3001:40:13] [ ERROR] [CategoriaService:57] No existe una ciudad con el nombre:nombre
+[2023-03-3001:40:13] [ INFO ] [CategoriaService:69] Se modifico el registro con el id: 1 de la tabla Ciudad
+[2023-03-3001:40:13] [ ERROR] [CategoriaService:49] No existe una ciudad con el id:1
+[2023-03-3001:40:13] [ INFO ] [CategoriaService:76] Se elimino el registro con el id: 1 de la tabla Ciudad
+[2023-03-3001:40:13] [ ERROR] [CategoriaService:24] Ya existe una ciudad con el nombre: Mar del Plata
+[2023-03-3001:40:13] [ INFO ] [CategoriaService:35] La tabla Ciudad no tiene registros
+[2023-03-3001:40:13] [ INFO ] [CategoriaService:28] Se creo una nueva ciudad: Mar del Plata
+[2023-03-3001:50:19] [ ERROR] [ProductoService:45] No existe un usuario con el email:burgosfacundo
+[2023-03-3001:50:19] [ ERROR] [ProductoService:40] No existe un producto con el id:1
+[2023-03-3001:50:19] [ INFO ] [ProductoService:50] Se creo una nueva reserva
+[2023-03-3001:50:19] [ ERROR] [ProductoService:57] No existe un producto con el id:0
+[2023-03-3001:50:19] [ ERROR] [CategoriaService:48] No existe una caracteristica con el id:1
+[2023-03-3001:50:19] [ INFO ] [CategoriaService:34] La tabla Caracteristica no tiene registros
+[2023-03-3001:50:19] [ ERROR] [CategoriaService:56] No existe una caracteristica con el titulo:titulo
+[2023-03-3001:50:19] [ ERROR] [CategoriaService:23] Ya existe una caracteristica con el titulo: wifi
+[2023-03-3001:50:19] [ INFO ] [CategoriaService:75] Se elimino el registro con el id: 1 de la tabla Caracteristicas
+[2023-03-3001:50:20] [ INFO ] [CategoriaService:68] Se modifico el registro con el id: 1 de la tabla Caracteristica
+[2023-03-3001:50:20] [ INFO ] [CategoriaService:27] Se creo una nueva caracteristica: wifi
+[2023-03-3001:50:20] [ ERROR] [CategoriaService:64] No existe un registro en la tabla Caracteristica con el id: 1
+[2023-03-3001:50:30] [ ERROR] [CategoriaService:44] No existe un producto con el id:0
+[2023-03-3001:50:30] [ ERROR] [CategoriaService:33] No existe un usuario con el id:1
+[2023-03-3001:50:30] [ ERROR] [CategoriaService:29] No existe un producto con el id:1
+[2023-03-3001:50:30] [ INFO ] [CategoriaService:38] Se creo una nueva puntuacion
+[2023-03-3001:50:30] [ INFO ] [CategoriaService:76] Se elimino el registro con el id: 1 de la tabla Categoria
+[2023-03-3001:50:30] [ INFO ] [CategoriaService:69] Se modifico el registro con el id: 1 de la tabla Categoria
+[2023-03-3001:50:30] [ ERROR] [CategoriaService:65] No existe un registro en la tabla Categoria con el id: 1
+[2023-03-3001:50:30] [ INFO ] [CategoriaService:35] La tabla Categoria no tiene registros
+[2023-03-3001:50:30] [ INFO ] [CategoriaService:28] Se creo una nueva categoria: Departamentos
+[2023-03-3001:50:30] [ ERROR] [CategoriaService:49] No existe una categoria con el id:1
+[2023-03-3001:50:30] [ ERROR] [CategoriaService:57] No existe una categoria con el titulo:titulo
+[2023-03-3001:50:30] [ ERROR] [CategoriaService:24] Ya existe una categoria con el titulo: Departamentos
+[2023-03-3001:50:30] [ ERROR] [CategoriaService:62] No existe una imagen con el titulo:imagen
+[2023-03-3001:50:30] [ ERROR] [CategoriaService:70] No existe un registro en la tabla Imagen con el id: 1
+[2023-03-3001:50:30] [ INFO ] [CategoriaService:74] Se modifico el registro con el id: 1 de la tabla Imagen
+[2023-03-3001:50:30] [ ERROR] [CategoriaService:54] No existe una imagen con el id:1
+[2023-03-3001:50:30] [ ERROR] [CategoriaService:25] Ya existe una imagen con el titulo: imagen
+[2023-03-3001:50:30] [ INFO ] [CategoriaService:81] Se elimino el registro con el id: 1 de la tabla Imagen
+[2023-03-3001:50:30] [ ERROR] [CategoriaService:29] No existe un producto con el id: 1
+[2023-03-3001:50:30] [ INFO ] [CategoriaService:33] Se creo una nueva imagen: imagen
+[2023-03-3001:50:30] [ INFO ] [CategoriaService:40] La tabla Imagen no tiene registros
+[2023-03-3001:50:30] [ INFO ] [CategoriaService:69] Se elimino el registro con el id: 1 de la tabla Usuarios
+[2023-03-3001:50:30] [ ERROR] [CategoriaService:35] No existe un rol con el id: 1
+[2023-03-3001:50:30] [ ERROR] [CategoriaService:31] El usuario con el email:email ya existe en la base de datos
+[2023-03-3001:50:30] [ INFO ] [CategoriaService:46] La tabla Usuario no tiene registros
+[2023-03-3001:50:30] [ INFO ] [ProductoService:68] La tabla Producto no tiene registros
+[2023-03-3001:50:30] [ INFO ] [ProductoService:108] No hay registro de productos en esa ciudad o no se encontro ciudad
+[2023-03-3001:50:30] [ INFO ] [ProductoService:55] La tabla Producto no tiene registros
+[2023-03-3001:50:30] [ ERROR] [ProductoService:147] No existe un registro para editar en la tabla Producto con el id: 1
+[2023-03-3001:50:30] [ INFO ] [ProductoService:151] Se modifico el registro con el id: 1 de la tabla Producto
+[2023-03-3001:50:30] [ INFO ] [ProductoService:48] Se creo un nuevo producto: Departamento
+[2023-03-3001:50:30] [ ERROR] [ProductoService:29] Ya existe un producto con el titulo: Departamento
+[2023-03-3001:50:30] [ INFO ] [ProductoService:95] No hay registro de productos en esa categoria o no se encontro categoria
+[2023-03-3001:50:30] [ ERROR] [ProductoService:33] No existe una ciudad con el id: 1
+[2023-03-3001:50:30] [ INFO ] [ProductoService:158] Se elimino el registro con el id: 1 de la tabla Productos
+[2023-03-3001:50:30] [ ERROR] [CategoriaService:65] No existe un registro en la tabla Ciudad con el id: 1
+[2023-03-3001:50:30] [ ERROR] [CategoriaService:57] No existe una ciudad con el nombre:nombre
+[2023-03-3001:50:30] [ INFO ] [CategoriaService:69] Se modifico el registro con el id: 1 de la tabla Ciudad
+[2023-03-3001:50:30] [ ERROR] [CategoriaService:49] No existe una ciudad con el id:1
+[2023-03-3001:50:30] [ INFO ] [CategoriaService:76] Se elimino el registro con el id: 1 de la tabla Ciudad
+[2023-03-3001:50:30] [ ERROR] [CategoriaService:24] Ya existe una ciudad con el nombre: Mar del Plata
+[2023-03-3001:50:30] [ INFO ] [CategoriaService:35] La tabla Ciudad no tiene registros
+[2023-03-3001:50:30] [ INFO ] [CategoriaService:28] Se creo una nueva ciudad: Mar del Plata
+[2023-03-3001:51:58] [ ERROR] [ProductoService:45] No existe un usuario con el email:burgosfacundo
+[2023-03-3001:51:58] [ ERROR] [ProductoService:40] No existe un producto con el id:1
+[2023-03-3001:51:58] [ INFO ] [ProductoService:50] Se creo una nueva reserva
+[2023-03-3001:51:58] [ ERROR] [ProductoService:57] No existe un producto con el id:0
+[2023-03-3001:51:58] [ ERROR] [CategoriaService:48] No existe una caracteristica con el id:1
+[2023-03-3001:51:58] [ INFO ] [CategoriaService:34] La tabla Caracteristica no tiene registros
+[2023-03-3001:51:58] [ ERROR] [CategoriaService:56] No existe una caracteristica con el titulo:titulo
+[2023-03-3001:51:58] [ ERROR] [CategoriaService:23] Ya existe una caracteristica con el titulo: wifi
+[2023-03-3001:51:58] [ INFO ] [CategoriaService:75] Se elimino el registro con el id: 1 de la tabla Caracteristicas
+[2023-03-3001:51:58] [ INFO ] [CategoriaService:68] Se modifico el registro con el id: 1 de la tabla Caracteristica
+[2023-03-3001:51:58] [ INFO ] [CategoriaService:27] Se creo una nueva caracteristica: wifi
+[2023-03-3001:51:58] [ ERROR] [CategoriaService:64] No existe un registro en la tabla Caracteristica con el id: 1
+[2023-03-3001:52:09] [ ERROR] [CategoriaService:44] No existe un producto con el id:0
+[2023-03-3001:52:09] [ ERROR] [CategoriaService:33] No existe un usuario con el id:1
+[2023-03-3001:52:09] [ ERROR] [CategoriaService:29] No existe un producto con el id:1
+[2023-03-3001:52:09] [ INFO ] [CategoriaService:38] Se creo una nueva puntuacion
+[2023-03-3001:52:09] [ INFO ] [CategoriaService:76] Se elimino el registro con el id: 1 de la tabla Categoria
+[2023-03-3001:52:09] [ INFO ] [CategoriaService:69] Se modifico el registro con el id: 1 de la tabla Categoria
+[2023-03-3001:52:09] [ ERROR] [CategoriaService:65] No existe un registro en la tabla Categoria con el id: 1
+[2023-03-3001:52:09] [ INFO ] [CategoriaService:35] La tabla Categoria no tiene registros
+[2023-03-3001:52:09] [ INFO ] [CategoriaService:28] Se creo una nueva categoria: Departamentos
+[2023-03-3001:52:09] [ ERROR] [CategoriaService:49] No existe una categoria con el id:1
+[2023-03-3001:52:09] [ ERROR] [CategoriaService:57] No existe una categoria con el titulo:titulo
+[2023-03-3001:52:09] [ ERROR] [CategoriaService:24] Ya existe una categoria con el titulo: Departamentos
+[2023-03-3001:52:09] [ ERROR] [CategoriaService:62] No existe una imagen con el titulo:imagen
+[2023-03-3001:52:09] [ ERROR] [CategoriaService:70] No existe un registro en la tabla Imagen con el id: 1
+[2023-03-3001:52:09] [ INFO ] [CategoriaService:74] Se modifico el registro con el id: 1 de la tabla Imagen
+[2023-03-3001:52:09] [ ERROR] [CategoriaService:54] No existe una imagen con el id:1
+[2023-03-3001:52:09] [ ERROR] [CategoriaService:25] Ya existe una imagen con el titulo: imagen
+[2023-03-3001:52:09] [ INFO ] [CategoriaService:81] Se elimino el registro con el id: 1 de la tabla Imagen
+[2023-03-3001:52:09] [ ERROR] [CategoriaService:29] No existe un producto con el id: 1
+[2023-03-3001:52:09] [ INFO ] [CategoriaService:33] Se creo una nueva imagen: imagen
+[2023-03-3001:52:09] [ INFO ] [CategoriaService:40] La tabla Imagen no tiene registros
+[2023-03-3001:52:09] [ INFO ] [CategoriaService:69] Se elimino el registro con el id: 1 de la tabla Usuarios
+[2023-03-3001:52:09] [ ERROR] [CategoriaService:35] No existe un rol con el id: 1
+[2023-03-3001:52:09] [ ERROR] [CategoriaService:31] El usuario con el email:email ya existe en la base de datos
+[2023-03-3001:52:09] [ INFO ] [CategoriaService:46] La tabla Usuario no tiene registros
+[2023-03-3001:52:09] [ INFO ] [ProductoService:68] La tabla Producto no tiene registros
+[2023-03-3001:52:09] [ INFO ] [ProductoService:108] No hay registro de productos en esa ciudad o no se encontro ciudad
+[2023-03-3001:52:09] [ INFO ] [ProductoService:55] La tabla Producto no tiene registros
+[2023-03-3001:52:09] [ ERROR] [ProductoService:147] No existe un registro para editar en la tabla Producto con el id: 1
+[2023-03-3001:52:09] [ INFO ] [ProductoService:151] Se modifico el registro con el id: 1 de la tabla Producto
+[2023-03-3001:52:09] [ INFO ] [ProductoService:48] Se creo un nuevo producto: Departamento
+[2023-03-3001:52:09] [ ERROR] [ProductoService:29] Ya existe un producto con el titulo: Departamento
+[2023-03-3001:52:09] [ INFO ] [ProductoService:95] No hay registro de productos en esa categoria o no se encontro categoria
+[2023-03-3001:52:09] [ ERROR] [ProductoService:33] No existe una ciudad con el id: 1
+[2023-03-3001:52:09] [ INFO ] [ProductoService:158] Se elimino el registro con el id: 1 de la tabla Productos
+[2023-03-3001:52:09] [ ERROR] [CategoriaService:65] No existe un registro en la tabla Ciudad con el id: 1
+[2023-03-3001:52:09] [ ERROR] [CategoriaService:57] No existe una ciudad con el nombre:nombre
+[2023-03-3001:52:09] [ INFO ] [CategoriaService:69] Se modifico el registro con el id: 1 de la tabla Ciudad
+[2023-03-3001:52:09] [ ERROR] [CategoriaService:49] No existe una ciudad con el id:1
+[2023-03-3001:52:09] [ INFO ] [CategoriaService:76] Se elimino el registro con el id: 1 de la tabla Ciudad
+[2023-03-3001:52:09] [ ERROR] [CategoriaService:24] Ya existe una ciudad con el nombre: Mar del Plata
+[2023-03-3001:52:09] [ INFO ] [CategoriaService:35] La tabla Ciudad no tiene registros
+[2023-03-3001:52:09] [ INFO ] [CategoriaService:28] Se creo una nueva ciudad: Mar del Plata
+[2023-03-3002:00:57] [ ERROR] [ProductoService:45] No existe un usuario con el email:burgosfacundo
+[2023-03-3002:00:57] [ ERROR] [ProductoService:40] No existe un producto con el id:1
+[2023-03-3002:00:57] [ INFO ] [ProductoService:50] Se creo una nueva reserva
+[2023-03-3002:00:57] [ ERROR] [ProductoService:57] No existe un producto con el id:0
+[2023-03-3002:00:57] [ ERROR] [CategoriaService:48] No existe una caracteristica con el id:1
+[2023-03-3002:00:57] [ INFO ] [CategoriaService:34] La tabla Caracteristica no tiene registros
+[2023-03-3002:00:57] [ ERROR] [CategoriaService:56] No existe una caracteristica con el titulo:titulo
+[2023-03-3002:00:57] [ ERROR] [CategoriaService:23] Ya existe una caracteristica con el titulo: wifi
+[2023-03-3002:00:57] [ INFO ] [CategoriaService:75] Se elimino el registro con el id: 1 de la tabla Caracteristicas
+[2023-03-3002:00:57] [ INFO ] [CategoriaService:68] Se modifico el registro con el id: 1 de la tabla Caracteristica
+[2023-03-3002:00:57] [ INFO ] [CategoriaService:27] Se creo una nueva caracteristica: wifi
+[2023-03-3002:00:57] [ ERROR] [CategoriaService:64] No existe un registro en la tabla Caracteristica con el id: 1
+[2023-03-3002:01:09] [ ERROR] [CategoriaService:44] No existe un producto con el id:0
+[2023-03-3002:01:09] [ ERROR] [CategoriaService:33] No existe un usuario con el id:1
+[2023-03-3002:01:09] [ ERROR] [CategoriaService:29] No existe un producto con el id:1
+[2023-03-3002:01:09] [ INFO ] [CategoriaService:38] Se creo una nueva puntuacion
+[2023-03-3002:01:09] [ INFO ] [CategoriaService:76] Se elimino el registro con el id: 1 de la tabla Categoria
+[2023-03-3002:01:09] [ INFO ] [CategoriaService:69] Se modifico el registro con el id: 1 de la tabla Categoria
+[2023-03-3002:01:09] [ ERROR] [CategoriaService:65] No existe un registro en la tabla Categoria con el id: 1
+[2023-03-3002:01:09] [ INFO ] [CategoriaService:35] La tabla Categoria no tiene registros
+[2023-03-3002:01:09] [ INFO ] [CategoriaService:28] Se creo una nueva categoria: Departamentos
+[2023-03-3002:01:09] [ ERROR] [CategoriaService:49] No existe una categoria con el id:1
+[2023-03-3002:01:09] [ ERROR] [CategoriaService:57] No existe una categoria con el titulo:titulo
+[2023-03-3002:01:09] [ ERROR] [CategoriaService:24] Ya existe una categoria con el titulo: Departamentos
+[2023-03-3002:01:09] [ ERROR] [CategoriaService:62] No existe una imagen con el titulo:imagen
+[2023-03-3002:01:09] [ ERROR] [CategoriaService:70] No existe un registro en la tabla Imagen con el id: 1
+[2023-03-3002:01:09] [ INFO ] [CategoriaService:74] Se modifico el registro con el id: 1 de la tabla Imagen
+[2023-03-3002:01:09] [ ERROR] [CategoriaService:54] No existe una imagen con el id:1
+[2023-03-3002:01:09] [ ERROR] [CategoriaService:25] Ya existe una imagen con el titulo: imagen
+[2023-03-3002:01:09] [ INFO ] [CategoriaService:81] Se elimino el registro con el id: 1 de la tabla Imagen
+[2023-03-3002:01:09] [ ERROR] [CategoriaService:29] No existe un producto con el id: 1
+[2023-03-3002:01:09] [ INFO ] [CategoriaService:33] Se creo una nueva imagen: imagen
+[2023-03-3002:01:09] [ INFO ] [CategoriaService:40] La tabla Imagen no tiene registros
+[2023-03-3002:01:09] [ INFO ] [CategoriaService:69] Se elimino el registro con el id: 1 de la tabla Usuarios
+[2023-03-3002:01:09] [ ERROR] [CategoriaService:35] No existe un rol con el id: 1
+[2023-03-3002:01:09] [ ERROR] [CategoriaService:31] El usuario con el email:email ya existe en la base de datos
+[2023-03-3002:01:09] [ INFO ] [CategoriaService:46] La tabla Usuario no tiene registros
+[2023-03-3002:01:09] [ INFO ] [ProductoService:68] La tabla Producto no tiene registros
+[2023-03-3002:01:09] [ INFO ] [ProductoService:108] No hay registro de productos en esa ciudad o no se encontro ciudad
+[2023-03-3002:01:09] [ INFO ] [ProductoService:55] La tabla Producto no tiene registros
+[2023-03-3002:01:09] [ ERROR] [ProductoService:147] No existe un registro para editar en la tabla Producto con el id: 1
+[2023-03-3002:01:09] [ INFO ] [ProductoService:151] Se modifico el registro con el id: 1 de la tabla Producto
+[2023-03-3002:01:09] [ INFO ] [ProductoService:48] Se creo un nuevo producto: Departamento
+[2023-03-3002:01:09] [ ERROR] [ProductoService:29] Ya existe un producto con el titulo: Departamento
+[2023-03-3002:01:09] [ INFO ] [ProductoService:95] No hay registro de productos en esa categoria o no se encontro categoria
+[2023-03-3002:01:09] [ ERROR] [ProductoService:33] No existe una ciudad con el id: 1
+[2023-03-3002:01:09] [ INFO ] [ProductoService:158] Se elimino el registro con el id: 1 de la tabla Productos
+[2023-03-3002:01:09] [ ERROR] [CategoriaService:65] No existe un registro en la tabla Ciudad con el id: 1
+[2023-03-3002:01:09] [ ERROR] [CategoriaService:57] No existe una ciudad con el nombre:nombre
+[2023-03-3002:01:09] [ INFO ] [CategoriaService:69] Se modifico el registro con el id: 1 de la tabla Ciudad
+[2023-03-3002:01:09] [ ERROR] [CategoriaService:49] No existe una ciudad con el id:1
+[2023-03-3002:01:09] [ INFO ] [CategoriaService:76] Se elimino el registro con el id: 1 de la tabla Ciudad
+[2023-03-3002:01:09] [ ERROR] [CategoriaService:24] Ya existe una ciudad con el nombre: Mar del Plata
+[2023-03-3002:01:09] [ INFO ] [CategoriaService:35] La tabla Ciudad no tiene registros
+[2023-03-3002:01:09] [ INFO ] [CategoriaService:28] Se creo una nueva ciudad: Mar del Plata
+[2023-03-3003:09:07] [ ERROR] [ProductoService:45] No existe un usuario con el email:burgosfacundo
+[2023-03-3003:09:07] [ ERROR] [ProductoService:40] No existe un producto con el id:1
+[2023-03-3003:09:07] [ INFO ] [ProductoService:50] Se creo una nueva reserva
+[2023-03-3003:09:07] [ ERROR] [ProductoService:57] No existe un producto con el id:0
+[2023-03-3003:09:07] [ ERROR] [CategoriaService:48] No existe una caracteristica con el id:1
+[2023-03-3003:09:07] [ INFO ] [CategoriaService:34] La tabla Caracteristica no tiene registros
+[2023-03-3003:09:07] [ ERROR] [CategoriaService:56] No existe una caracteristica con el titulo:titulo
+[2023-03-3003:09:07] [ ERROR] [CategoriaService:23] Ya existe una caracteristica con el titulo: wifi
+[2023-03-3003:09:07] [ INFO ] [CategoriaService:75] Se elimino el registro con el id: 1 de la tabla Caracteristicas
+[2023-03-3003:09:07] [ INFO ] [CategoriaService:68] Se modifico el registro con el id: 1 de la tabla Caracteristica
+[2023-03-3003:09:07] [ INFO ] [CategoriaService:27] Se creo una nueva caracteristica: wifi
+[2023-03-3003:09:07] [ ERROR] [CategoriaService:64] No existe un registro en la tabla Caracteristica con el id: 1
+[2023-03-3003:09:18] [ ERROR] [CategoriaService:44] No existe un producto con el id:0
+[2023-03-3003:09:18] [ ERROR] [CategoriaService:33] No existe un usuario con el id:1
+[2023-03-3003:09:18] [ ERROR] [CategoriaService:29] No existe un producto con el id:1
+[2023-03-3003:09:18] [ INFO ] [CategoriaService:38] Se creo una nueva puntuacion
+[2023-03-3003:09:18] [ INFO ] [CategoriaService:76] Se elimino el registro con el id: 1 de la tabla Categoria
+[2023-03-3003:09:18] [ INFO ] [CategoriaService:69] Se modifico el registro con el id: 1 de la tabla Categoria
+[2023-03-3003:09:18] [ ERROR] [CategoriaService:65] No existe un registro en la tabla Categoria con el id: 1
+[2023-03-3003:09:18] [ INFO ] [CategoriaService:35] La tabla Categoria no tiene registros
+[2023-03-3003:09:18] [ INFO ] [CategoriaService:28] Se creo una nueva categoria: Departamentos
+[2023-03-3003:09:18] [ ERROR] [CategoriaService:49] No existe una categoria con el id:1
+[2023-03-3003:09:18] [ ERROR] [CategoriaService:57] No existe una categoria con el titulo:titulo
+[2023-03-3003:09:18] [ ERROR] [CategoriaService:24] Ya existe una categoria con el titulo: Departamentos
+[2023-03-3003:09:18] [ ERROR] [CategoriaService:62] No existe una imagen con el titulo:imagen
+[2023-03-3003:09:18] [ ERROR] [CategoriaService:70] No existe un registro en la tabla Imagen con el id: 1
+[2023-03-3003:09:18] [ INFO ] [CategoriaService:74] Se modifico el registro con el id: 1 de la tabla Imagen
+[2023-03-3003:09:18] [ ERROR] [CategoriaService:54] No existe una imagen con el id:1
+[2023-03-3003:09:18] [ ERROR] [CategoriaService:25] Ya existe una imagen con el titulo: imagen
+[2023-03-3003:09:18] [ INFO ] [CategoriaService:81] Se elimino el registro con el id: 1 de la tabla Imagen
+[2023-03-3003:09:18] [ ERROR] [CategoriaService:29] No existe un producto con el id: 1
+[2023-03-3003:09:18] [ INFO ] [CategoriaService:33] Se creo una nueva imagen: imagen
+[2023-03-3003:09:18] [ INFO ] [CategoriaService:40] La tabla Imagen no tiene registros
+[2023-03-3003:09:18] [ INFO ] [CategoriaService:69] Se elimino el registro con el id: 1 de la tabla Usuarios
+[2023-03-3003:09:18] [ ERROR] [CategoriaService:35] No existe un rol con el id: 1
+[2023-03-3003:09:18] [ ERROR] [CategoriaService:31] El usuario con el email:email ya existe en la base de datos
+[2023-03-3003:09:18] [ INFO ] [CategoriaService:46] La tabla Usuario no tiene registros
+[2023-03-3003:09:18] [ INFO ] [ProductoService:68] La tabla Producto no tiene registros
+[2023-03-3003:09:18] [ INFO ] [ProductoService:108] No hay registro de productos en esa ciudad o no se encontro ciudad
+[2023-03-3003:09:18] [ INFO ] [ProductoService:55] La tabla Producto no tiene registros
+[2023-03-3003:09:18] [ ERROR] [ProductoService:147] No existe un registro para editar en la tabla Producto con el id: 1
+[2023-03-3003:09:18] [ INFO ] [ProductoService:151] Se modifico el registro con el id: 1 de la tabla Producto
+[2023-03-3003:09:18] [ INFO ] [ProductoService:48] Se creo un nuevo producto: Departamento
+[2023-03-3003:09:18] [ ERROR] [ProductoService:29] Ya existe un producto con el titulo: Departamento
+[2023-03-3003:09:18] [ INFO ] [ProductoService:95] No hay registro de productos en esa categoria o no se encontro categoria
+[2023-03-3003:09:18] [ ERROR] [ProductoService:33] No existe una ciudad con el id: 1
+[2023-03-3003:09:18] [ INFO ] [ProductoService:158] Se elimino el registro con el id: 1 de la tabla Productos
+[2023-03-3003:09:18] [ ERROR] [CategoriaService:65] No existe un registro en la tabla Ciudad con el id: 1
+[2023-03-3003:09:18] [ ERROR] [CategoriaService:57] No existe una ciudad con el nombre:nombre
+[2023-03-3003:09:18] [ INFO ] [CategoriaService:69] Se modifico el registro con el id: 1 de la tabla Ciudad
+[2023-03-3003:09:18] [ ERROR] [CategoriaService:49] No existe una ciudad con el id:1
+[2023-03-3003:09:18] [ INFO ] [CategoriaService:76] Se elimino el registro con el id: 1 de la tabla Ciudad
+[2023-03-3003:09:18] [ ERROR] [CategoriaService:24] Ya existe una ciudad con el nombre: Mar del Plata
+[2023-03-3003:09:18] [ INFO ] [CategoriaService:35] La tabla Ciudad no tiene registros
+[2023-03-3003:09:18] [ INFO ] [CategoriaService:28] Se creo una nueva ciudad: Mar del Plata
+[2023-03-3003:23:03] [ INFO ] [ProductoService:50] Se creo una nueva reserva
+[2023-03-3003:26:16] [ ERROR] [ProductoService:45] No existe un usuario con el email:burgosfacundo
+[2023-03-3003:26:16] [ ERROR] [ProductoService:40] No existe un producto con el id:1
+[2023-03-3003:26:16] [ INFO ] [ProductoService:50] Se creo una nueva reserva
+[2023-03-3003:26:16] [ ERROR] [ProductoService:57] No existe un producto con el id:0
+[2023-03-3003:26:16] [ ERROR] [CategoriaService:48] No existe una caracteristica con el id:1
+[2023-03-3003:26:16] [ INFO ] [CategoriaService:34] La tabla Caracteristica no tiene registros
+[2023-03-3003:26:16] [ ERROR] [CategoriaService:56] No existe una caracteristica con el titulo:titulo
+[2023-03-3003:26:16] [ ERROR] [CategoriaService:23] Ya existe una caracteristica con el titulo: wifi
+[2023-03-3003:26:16] [ INFO ] [CategoriaService:75] Se elimino el registro con el id: 1 de la tabla Caracteristicas
+[2023-03-3003:26:16] [ INFO ] [CategoriaService:68] Se modifico el registro con el id: 1 de la tabla Caracteristica
+[2023-03-3003:26:16] [ INFO ] [CategoriaService:27] Se creo una nueva caracteristica: wifi
+[2023-03-3003:26:16] [ ERROR] [CategoriaService:64] No existe un registro en la tabla Caracteristica con el id: 1
+[2023-03-3003:26:27] [ ERROR] [CategoriaService:44] No existe un producto con el id:0
+[2023-03-3003:26:27] [ ERROR] [CategoriaService:33] No existe un usuario con el id:1
+[2023-03-3003:26:27] [ ERROR] [CategoriaService:29] No existe un producto con el id:1
+[2023-03-3003:26:27] [ INFO ] [CategoriaService:38] Se creo una nueva puntuacion
+[2023-03-3003:26:27] [ INFO ] [CategoriaService:76] Se elimino el registro con el id: 1 de la tabla Categoria
+[2023-03-3003:26:27] [ INFO ] [CategoriaService:69] Se modifico el registro con el id: 1 de la tabla Categoria
+[2023-03-3003:26:27] [ ERROR] [CategoriaService:65] No existe un registro en la tabla Categoria con el id: 1
+[2023-03-3003:26:27] [ INFO ] [CategoriaService:35] La tabla Categoria no tiene registros
+[2023-03-3003:26:27] [ INFO ] [CategoriaService:28] Se creo una nueva categoria: Departamentos
+[2023-03-3003:26:27] [ ERROR] [CategoriaService:49] No existe una categoria con el id:1
+[2023-03-3003:26:27] [ ERROR] [CategoriaService:57] No existe una categoria con el titulo:titulo
+[2023-03-3003:26:27] [ ERROR] [CategoriaService:24] Ya existe una categoria con el titulo: Departamentos
+[2023-03-3003:26:27] [ ERROR] [CategoriaService:62] No existe una imagen con el titulo:imagen
+[2023-03-3003:26:27] [ ERROR] [CategoriaService:70] No existe un registro en la tabla Imagen con el id: 1
+[2023-03-3003:26:27] [ INFO ] [CategoriaService:74] Se modifico el registro con el id: 1 de la tabla Imagen
+[2023-03-3003:26:27] [ ERROR] [CategoriaService:54] No existe una imagen con el id:1
+[2023-03-3003:26:27] [ ERROR] [CategoriaService:25] Ya existe una imagen con el titulo: imagen
+[2023-03-3003:26:27] [ INFO ] [CategoriaService:81] Se elimino el registro con el id: 1 de la tabla Imagen
+[2023-03-3003:26:27] [ ERROR] [CategoriaService:29] No existe un producto con el id: 1
+[2023-03-3003:26:27] [ INFO ] [CategoriaService:33] Se creo una nueva imagen: imagen
+[2023-03-3003:26:27] [ INFO ] [CategoriaService:40] La tabla Imagen no tiene registros
+[2023-03-3003:26:27] [ INFO ] [CategoriaService:69] Se elimino el registro con el id: 1 de la tabla Usuarios
+[2023-03-3003:26:27] [ ERROR] [CategoriaService:35] No existe un rol con el id: 1
+[2023-03-3003:26:27] [ ERROR] [CategoriaService:31] El usuario con el email:email ya existe en la base de datos
+[2023-03-3003:26:27] [ INFO ] [CategoriaService:46] La tabla Usuario no tiene registros
+[2023-03-3003:26:27] [ INFO ] [ProductoService:68] La tabla Producto no tiene registros
+[2023-03-3003:26:27] [ INFO ] [ProductoService:108] No hay registro de productos en esa ciudad o no se encontro ciudad
+[2023-03-3003:26:27] [ INFO ] [ProductoService:55] La tabla Producto no tiene registros
+[2023-03-3003:26:27] [ ERROR] [ProductoService:147] No existe un registro para editar en la tabla Producto con el id: 1
+[2023-03-3003:26:27] [ INFO ] [ProductoService:151] Se modifico el registro con el id: 1 de la tabla Producto
+[2023-03-3003:26:27] [ INFO ] [ProductoService:48] Se creo un nuevo producto: Departamento
+[2023-03-3003:26:27] [ ERROR] [ProductoService:29] Ya existe un producto con el titulo: Departamento
+[2023-03-3003:26:27] [ INFO ] [ProductoService:95] No hay registro de productos en esa categoria o no se encontro categoria
+[2023-03-3003:26:27] [ ERROR] [ProductoService:33] No existe una ciudad con el id: 1
+[2023-03-3003:26:27] [ INFO ] [ProductoService:158] Se elimino el registro con el id: 1 de la tabla Productos
+[2023-03-3003:26:27] [ ERROR] [CategoriaService:65] No existe un registro en la tabla Ciudad con el id: 1
+[2023-03-3003:26:27] [ ERROR] [CategoriaService:57] No existe una ciudad con el nombre:nombre
+[2023-03-3003:26:27] [ INFO ] [CategoriaService:69] Se modifico el registro con el id: 1 de la tabla Ciudad
+[2023-03-3003:26:27] [ ERROR] [CategoriaService:49] No existe una ciudad con el id:1
+[2023-03-3003:26:27] [ INFO ] [CategoriaService:76] Se elimino el registro con el id: 1 de la tabla Ciudad
+[2023-03-3003:26:27] [ ERROR] [CategoriaService:24] Ya existe una ciudad con el nombre: Mar del Plata
+[2023-03-3003:26:27] [ INFO ] [CategoriaService:35] La tabla Ciudad no tiene registros
+[2023-03-3003:26:27] [ INFO ] [CategoriaService:28] Se creo una nueva ciudad: Mar del Plata
+[2023-03-3003:30:13] [ ERROR] [ProductoService:45] No existe un usuario con el email:burgosfacundo
+[2023-03-3003:30:13] [ ERROR] [ProductoService:40] No existe un producto con el id:1
+[2023-03-3003:30:13] [ INFO ] [ProductoService:50] Se creo una nueva reserva
+[2023-03-3003:30:13] [ ERROR] [ProductoService:57] No existe un producto con el id:0
+[2023-03-3003:30:13] [ ERROR] [CategoriaService:48] No existe una caracteristica con el id:1
+[2023-03-3003:30:13] [ INFO ] [CategoriaService:34] La tabla Caracteristica no tiene registros
+[2023-03-3003:30:13] [ ERROR] [CategoriaService:56] No existe una caracteristica con el titulo:titulo
+[2023-03-3003:30:13] [ ERROR] [CategoriaService:23] Ya existe una caracteristica con el titulo: wifi
+[2023-03-3003:30:13] [ INFO ] [CategoriaService:75] Se elimino el registro con el id: 1 de la tabla Caracteristicas
+[2023-03-3003:30:13] [ INFO ] [CategoriaService:68] Se modifico el registro con el id: 1 de la tabla Caracteristica
+[2023-03-3003:30:13] [ INFO ] [CategoriaService:27] Se creo una nueva caracteristica: wifi
+[2023-03-3003:30:13] [ ERROR] [CategoriaService:64] No existe un registro en la tabla Caracteristica con el id: 1
+[2023-03-3003:30:24] [ ERROR] [CategoriaService:44] No existe un producto con el id:0
+[2023-03-3003:30:24] [ ERROR] [CategoriaService:33] No existe un usuario con el id:1
+[2023-03-3003:30:24] [ ERROR] [CategoriaService:29] No existe un producto con el id:1
+[2023-03-3003:30:24] [ INFO ] [CategoriaService:38] Se creo una nueva puntuacion
+[2023-03-3003:30:24] [ INFO ] [CategoriaService:76] Se elimino el registro con el id: 1 de la tabla Categoria
+[2023-03-3003:30:24] [ INFO ] [CategoriaService:69] Se modifico el registro con el id: 1 de la tabla Categoria
+[2023-03-3003:30:24] [ ERROR] [CategoriaService:65] No existe un registro en la tabla Categoria con el id: 1
+[2023-03-3003:30:24] [ INFO ] [CategoriaService:35] La tabla Categoria no tiene registros
+[2023-03-3003:30:24] [ INFO ] [CategoriaService:28] Se creo una nueva categoria: Departamentos
+[2023-03-3003:30:24] [ ERROR] [CategoriaService:49] No existe una categoria con el id:1
+[2023-03-3003:30:24] [ ERROR] [CategoriaService:57] No existe una categoria con el titulo:titulo
+[2023-03-3003:30:24] [ ERROR] [CategoriaService:24] Ya existe una categoria con el titulo: Departamentos
+[2023-03-3003:30:24] [ ERROR] [CategoriaService:62] No existe una imagen con el titulo:imagen
+[2023-03-3003:30:24] [ ERROR] [CategoriaService:70] No existe un registro en la tabla Imagen con el id: 1
+[2023-03-3003:30:24] [ INFO ] [CategoriaService:74] Se modifico el registro con el id: 1 de la tabla Imagen
+[2023-03-3003:30:24] [ ERROR] [CategoriaService:54] No existe una imagen con el id:1
+[2023-03-3003:30:24] [ ERROR] [CategoriaService:25] Ya existe una imagen con el titulo: imagen
+[2023-03-3003:30:24] [ INFO ] [CategoriaService:81] Se elimino el registro con el id: 1 de la tabla Imagen
+[2023-03-3003:30:24] [ ERROR] [CategoriaService:29] No existe un producto con el id: 1
+[2023-03-3003:30:24] [ INFO ] [CategoriaService:33] Se creo una nueva imagen: imagen
+[2023-03-3003:30:24] [ INFO ] [CategoriaService:40] La tabla Imagen no tiene registros
+[2023-03-3003:30:24] [ INFO ] [CategoriaService:69] Se elimino el registro con el id: 1 de la tabla Usuarios
+[2023-03-3003:30:24] [ ERROR] [CategoriaService:35] No existe un rol con el id: 1
+[2023-03-3003:30:24] [ ERROR] [CategoriaService:31] El usuario con el email:email ya existe en la base de datos
+[2023-03-3003:30:24] [ INFO ] [CategoriaService:46] La tabla Usuario no tiene registros
+[2023-03-3003:30:24] [ INFO ] [ProductoService:68] La tabla Producto no tiene registros
+[2023-03-3003:30:24] [ INFO ] [ProductoService:108] No hay registro de productos en esa ciudad o no se encontro ciudad
+[2023-03-3003:30:24] [ INFO ] [ProductoService:55] La tabla Producto no tiene registros
+[2023-03-3003:30:24] [ ERROR] [ProductoService:147] No existe un registro para editar en la tabla Producto con el id: 1
+[2023-03-3003:30:24] [ INFO ] [ProductoService:151] Se modifico el registro con el id: 1 de la tabla Producto
+[2023-03-3003:30:24] [ INFO ] [ProductoService:48] Se creo un nuevo producto: Departamento
+[2023-03-3003:30:24] [ ERROR] [ProductoService:29] Ya existe un producto con el titulo: Departamento
+[2023-03-3003:30:24] [ INFO ] [ProductoService:95] No hay registro de productos en esa categoria o no se encontro categoria
+[2023-03-3003:30:24] [ ERROR] [ProductoService:33] No existe una ciudad con el id: 1
+[2023-03-3003:30:24] [ INFO ] [ProductoService:158] Se elimino el registro con el id: 1 de la tabla Productos
+[2023-03-3003:30:24] [ ERROR] [CategoriaService:65] No existe un registro en la tabla Ciudad con el id: 1
+[2023-03-3003:30:24] [ ERROR] [CategoriaService:57] No existe una ciudad con el nombre:nombre
+[2023-03-3003:30:24] [ INFO ] [CategoriaService:69] Se modifico el registro con el id: 1 de la tabla Ciudad
+[2023-03-3003:30:24] [ ERROR] [CategoriaService:49] No existe una ciudad con el id:1
+[2023-03-3003:30:24] [ INFO ] [CategoriaService:76] Se elimino el registro con el id: 1 de la tabla Ciudad
+[2023-03-3003:30:24] [ ERROR] [CategoriaService:24] Ya existe una ciudad con el nombre: Mar del Plata
+[2023-03-3003:30:24] [ INFO ] [CategoriaService:35] La tabla Ciudad no tiene registros
+[2023-03-3003:30:24] [ INFO ] [CategoriaService:28] Se creo una nueva ciudad: Mar del Plata
+[2023-03-3003:45:01] [ ERROR] [ProductoService:45] No existe un usuario con el email:burgosfacundo
+[2023-03-3003:45:01] [ ERROR] [ProductoService:40] No existe un producto con el id:1
+[2023-03-3003:45:01] [ ERROR] [ProductoService:57] No existe un producto con el id:0
+[2023-03-3003:45:01] [ ERROR] [CategoriaService:48] No existe una caracteristica con el id:1
+[2023-03-3003:45:01] [ INFO ] [CategoriaService:34] La tabla Caracteristica no tiene registros
+[2023-03-3003:45:01] [ ERROR] [CategoriaService:56] No existe una caracteristica con el titulo:titulo
+[2023-03-3003:45:01] [ ERROR] [CategoriaService:23] Ya existe una caracteristica con el titulo: wifi
+[2023-03-3003:45:01] [ INFO ] [CategoriaService:75] Se elimino el registro con el id: 1 de la tabla Caracteristicas
+[2023-03-3003:45:01] [ INFO ] [CategoriaService:68] Se modifico el registro con el id: 1 de la tabla Caracteristica
+[2023-03-3003:45:01] [ INFO ] [CategoriaService:27] Se creo una nueva caracteristica: wifi
+[2023-03-3003:45:01] [ ERROR] [CategoriaService:64] No existe un registro en la tabla Caracteristica con el id: 1
+[2023-03-3003:45:12] [ ERROR] [CategoriaService:44] No existe un producto con el id:0
+[2023-03-3003:45:12] [ ERROR] [CategoriaService:33] No existe un usuario con el id:1
+[2023-03-3003:45:12] [ ERROR] [CategoriaService:29] No existe un producto con el id:1
+[2023-03-3003:45:12] [ INFO ] [CategoriaService:38] Se creo una nueva puntuacion
+[2023-03-3003:45:12] [ INFO ] [CategoriaService:76] Se elimino el registro con el id: 1 de la tabla Categoria
+[2023-03-3003:45:12] [ INFO ] [CategoriaService:69] Se modifico el registro con el id: 1 de la tabla Categoria
+[2023-03-3003:45:12] [ ERROR] [CategoriaService:65] No existe un registro en la tabla Categoria con el id: 1
+[2023-03-3003:45:12] [ INFO ] [CategoriaService:35] La tabla Categoria no tiene registros
+[2023-03-3003:45:12] [ INFO ] [CategoriaService:28] Se creo una nueva categoria: Departamentos
+[2023-03-3003:45:12] [ ERROR] [CategoriaService:49] No existe una categoria con el id:1
+[2023-03-3003:45:12] [ ERROR] [CategoriaService:57] No existe una categoria con el titulo:titulo
+[2023-03-3003:45:12] [ ERROR] [CategoriaService:24] Ya existe una categoria con el titulo: Departamentos
+[2023-03-3003:45:12] [ ERROR] [CategoriaService:62] No existe una imagen con el titulo:imagen
+[2023-03-3003:45:12] [ ERROR] [CategoriaService:70] No existe un registro en la tabla Imagen con el id: 1
+[2023-03-3003:45:12] [ INFO ] [CategoriaService:74] Se modifico el registro con el id: 1 de la tabla Imagen
+[2023-03-3003:45:12] [ ERROR] [CategoriaService:54] No existe una imagen con el id:1
+[2023-03-3003:45:12] [ ERROR] [CategoriaService:25] Ya existe una imagen con el titulo: imagen
+[2023-03-3003:45:12] [ INFO ] [CategoriaService:81] Se elimino el registro con el id: 1 de la tabla Imagen
+[2023-03-3003:45:12] [ ERROR] [CategoriaService:29] No existe un producto con el id: 1
+[2023-03-3003:45:12] [ INFO ] [CategoriaService:33] Se creo una nueva imagen: imagen
+[2023-03-3003:45:12] [ INFO ] [CategoriaService:40] La tabla Imagen no tiene registros
+[2023-03-3003:45:12] [ INFO ] [CategoriaService:69] Se elimino el registro con el id: 1 de la tabla Usuarios
+[2023-03-3003:45:12] [ ERROR] [CategoriaService:35] No existe un rol con el id: 1
+[2023-03-3003:45:12] [ ERROR] [CategoriaService:31] El usuario con el email:email ya existe en la base de datos
+[2023-03-3003:45:12] [ INFO ] [CategoriaService:46] La tabla Usuario no tiene registros
+[2023-03-3003:45:12] [ INFO ] [ProductoService:68] La tabla Producto no tiene registros
+[2023-03-3003:45:12] [ INFO ] [ProductoService:108] No hay registro de productos en esa ciudad o no se encontro ciudad
+[2023-03-3003:45:12] [ INFO ] [ProductoService:55] La tabla Producto no tiene registros
+[2023-03-3003:45:12] [ ERROR] [ProductoService:147] No existe un registro para editar en la tabla Producto con el id: 1
+[2023-03-3003:45:12] [ INFO ] [ProductoService:151] Se modifico el registro con el id: 1 de la tabla Producto
+[2023-03-3003:45:12] [ INFO ] [ProductoService:48] Se creo un nuevo producto: Departamento
+[2023-03-3003:45:12] [ ERROR] [ProductoService:29] Ya existe un producto con el titulo: Departamento
+[2023-03-3003:45:12] [ INFO ] [ProductoService:95] No hay registro de productos en esa categoria o no se encontro categoria
+[2023-03-3003:45:12] [ ERROR] [ProductoService:33] No existe una ciudad con el id: 1
+[2023-03-3003:45:12] [ INFO ] [ProductoService:158] Se elimino el registro con el id: 1 de la tabla Productos
+[2023-03-3003:45:12] [ ERROR] [CategoriaService:65] No existe un registro en la tabla Ciudad con el id: 1
+[2023-03-3003:45:12] [ ERROR] [CategoriaService:57] No existe una ciudad con el nombre:nombre
+[2023-03-3003:45:12] [ INFO ] [CategoriaService:69] Se modifico el registro con el id: 1 de la tabla Ciudad
+[2023-03-3003:45:12] [ ERROR] [CategoriaService:49] No existe una ciudad con el id:1
+[2023-03-3003:45:12] [ INFO ] [CategoriaService:76] Se elimino el registro con el id: 1 de la tabla Ciudad
+[2023-03-3003:45:12] [ ERROR] [CategoriaService:24] Ya existe una ciudad con el nombre: Mar del Plata
+[2023-03-3003:45:12] [ INFO ] [CategoriaService:35] La tabla Ciudad no tiene registros
+[2023-03-3003:45:12] [ INFO ] [CategoriaService:28] Se creo una nueva ciudad: Mar del Plata
+[2023-03-3003:48:15] [ ERROR] [ProductoService:45] No existe un usuario con el email:burgosfacundo
+[2023-03-3003:48:15] [ ERROR] [ProductoService:40] No existe un producto con el id:1
+[2023-03-3003:48:15] [ ERROR] [ProductoService:57] No existe un producto con el id:0
+[2023-03-3003:48:15] [ ERROR] [CategoriaService:48] No existe una caracteristica con el id:1
+[2023-03-3003:48:15] [ INFO ] [CategoriaService:34] La tabla Caracteristica no tiene registros
+[2023-03-3003:48:15] [ ERROR] [CategoriaService:56] No existe una caracteristica con el titulo:titulo
+[2023-03-3003:48:15] [ ERROR] [CategoriaService:23] Ya existe una caracteristica con el titulo: wifi
+[2023-03-3003:48:15] [ INFO ] [CategoriaService:75] Se elimino el registro con el id: 1 de la tabla Caracteristicas
+[2023-03-3003:48:15] [ INFO ] [CategoriaService:68] Se modifico el registro con el id: 1 de la tabla Caracteristica
+[2023-03-3003:48:15] [ INFO ] [CategoriaService:27] Se creo una nueva caracteristica: wifi
+[2023-03-3003:48:15] [ ERROR] [CategoriaService:64] No existe un registro en la tabla Caracteristica con el id: 1
+[2023-03-3003:48:26] [ ERROR] [CategoriaService:44] No existe un producto con el id:0
+[2023-03-3003:48:26] [ ERROR] [CategoriaService:33] No existe un usuario con el id:1
+[2023-03-3003:48:26] [ ERROR] [CategoriaService:29] No existe un producto con el id:1
+[2023-03-3003:48:26] [ INFO ] [CategoriaService:38] Se creo una nueva puntuacion
+[2023-03-3003:48:26] [ INFO ] [CategoriaService:76] Se elimino el registro con el id: 1 de la tabla Categoria
+[2023-03-3003:48:26] [ INFO ] [CategoriaService:69] Se modifico el registro con el id: 1 de la tabla Categoria
+[2023-03-3003:48:26] [ ERROR] [CategoriaService:65] No existe un registro en la tabla Categoria con el id: 1
+[2023-03-3003:48:26] [ INFO ] [CategoriaService:35] La tabla Categoria no tiene registros
+[2023-03-3003:48:26] [ INFO ] [CategoriaService:28] Se creo una nueva categoria: Departamentos
+[2023-03-3003:48:26] [ ERROR] [CategoriaService:49] No existe una categoria con el id:1
+[2023-03-3003:48:26] [ ERROR] [CategoriaService:57] No existe una categoria con el titulo:titulo
+[2023-03-3003:48:26] [ ERROR] [CategoriaService:24] Ya existe una categoria con el titulo: Departamentos
+[2023-03-3003:48:26] [ ERROR] [CategoriaService:62] No existe una imagen con el titulo:imagen
+[2023-03-3003:48:26] [ ERROR] [CategoriaService:70] No existe un registro en la tabla Imagen con el id: 1
+[2023-03-3003:48:26] [ INFO ] [CategoriaService:74] Se modifico el registro con el id: 1 de la tabla Imagen
+[2023-03-3003:48:26] [ ERROR] [CategoriaService:54] No existe una imagen con el id:1
+[2023-03-3003:48:26] [ ERROR] [CategoriaService:25] Ya existe una imagen con el titulo: imagen
+[2023-03-3003:48:26] [ INFO ] [CategoriaService:81] Se elimino el registro con el id: 1 de la tabla Imagen
+[2023-03-3003:48:26] [ ERROR] [CategoriaService:29] No existe un producto con el id: 1
+[2023-03-3003:48:26] [ INFO ] [CategoriaService:33] Se creo una nueva imagen: imagen
+[2023-03-3003:48:26] [ INFO ] [CategoriaService:40] La tabla Imagen no tiene registros
+[2023-03-3003:48:26] [ INFO ] [CategoriaService:69] Se elimino el registro con el id: 1 de la tabla Usuarios
+[2023-03-3003:48:26] [ ERROR] [CategoriaService:35] No existe un rol con el id: 1
+[2023-03-3003:48:26] [ ERROR] [CategoriaService:31] El usuario con el email:email ya existe en la base de datos
+[2023-03-3003:48:26] [ INFO ] [CategoriaService:46] La tabla Usuario no tiene registros
+[2023-03-3003:48:26] [ INFO ] [ProductoService:68] La tabla Producto no tiene registros
+[2023-03-3003:48:26] [ INFO ] [ProductoService:108] No hay registro de productos en esa ciudad o no se encontro ciudad
+[2023-03-3003:48:26] [ INFO ] [ProductoService:55] La tabla Producto no tiene registros
+[2023-03-3003:48:26] [ ERROR] [ProductoService:147] No existe un registro para editar en la tabla Producto con el id: 1
+[2023-03-3003:48:26] [ INFO ] [ProductoService:151] Se modifico el registro con el id: 1 de la tabla Producto
+[2023-03-3003:48:26] [ INFO ] [ProductoService:48] Se creo un nuevo producto: Departamento
+[2023-03-3003:48:26] [ ERROR] [ProductoService:29] Ya existe un producto con el titulo: Departamento
+[2023-03-3003:48:26] [ INFO ] [ProductoService:95] No hay registro de productos en esa categoria o no se encontro categoria
+[2023-03-3003:48:26] [ ERROR] [ProductoService:33] No existe una ciudad con el id: 1
+[2023-03-3003:48:26] [ INFO ] [ProductoService:158] Se elimino el registro con el id: 1 de la tabla Productos
+[2023-03-3003:48:26] [ ERROR] [CategoriaService:65] No existe un registro en la tabla Ciudad con el id: 1
+[2023-03-3003:48:26] [ ERROR] [CategoriaService:57] No existe una ciudad con el nombre:nombre
+[2023-03-3003:48:26] [ INFO ] [CategoriaService:69] Se modifico el registro con el id: 1 de la tabla Ciudad
+[2023-03-3003:48:26] [ ERROR] [CategoriaService:49] No existe una ciudad con el id:1
+[2023-03-3003:48:26] [ INFO ] [CategoriaService:76] Se elimino el registro con el id: 1 de la tabla Ciudad
+[2023-03-3003:48:26] [ ERROR] [CategoriaService:24] Ya existe una ciudad con el nombre: Mar del Plata
+[2023-03-3003:48:26] [ INFO ] [CategoriaService:35] La tabla Ciudad no tiene registros
+[2023-03-3003:48:26] [ INFO ] [CategoriaService:28] Se creo una nueva ciudad: Mar del Plata
+>>>>>>> b058358ce6ffc8f83162b67c7ff27638132c1a13
+[2023-04-1008:14:09] [ ERROR] [ProductoService:45] No existe un usuario con el email:burgosfacundo
+[2023-04-1008:14:09] [ ERROR] [ProductoService:40] No existe un producto con el id:1
+[2023-04-1008:14:09] [ ERROR] [ProductoService:57] No existe un producto con el id:0
+[2023-04-1008:14:09] [ ERROR] [CategoriaService:48] No existe una caracteristica con el id:1
+[2023-04-1008:14:09] [ INFO ] [CategoriaService:34] La tabla Caracteristica no tiene registros
+[2023-04-1008:14:09] [ ERROR] [CategoriaService:56] No existe una caracteristica con el titulo:titulo
+[2023-04-1008:14:09] [ ERROR] [CategoriaService:23] Ya existe una caracteristica con el titulo: wifi
+[2023-04-1008:14:09] [ INFO ] [CategoriaService:75] Se elimino el registro con el id: 1 de la tabla Caracteristicas
+[2023-04-1008:14:09] [ INFO ] [CategoriaService:68] Se modifico el registro con el id: 1 de la tabla Caracteristica
+[2023-04-1008:14:09] [ INFO ] [CategoriaService:27] Se creo una nueva caracteristica: wifi
+[2023-04-1008:14:09] [ ERROR] [CategoriaService:64] No existe un registro en la tabla Caracteristica con el id: 1
+[2023-04-1008:14:21] [ ERROR] [CategoriaService:44] No existe un producto con el id:0
+[2023-04-1008:14:21] [ ERROR] [CategoriaService:33] No existe un usuario con el id:1
+[2023-04-1008:14:21] [ ERROR] [CategoriaService:29] No existe un producto con el id:1
+[2023-04-1008:14:21] [ INFO ] [CategoriaService:38] Se creo una nueva puntuacion
+[2023-04-1008:14:21] [ INFO ] [CategoriaService:89] Se elimino el registro con el id: 1 de la tabla Categoria
+[2023-04-1008:14:21] [ INFO ] [CategoriaService:82] Se modifico el registro con el id: 1 de la tabla Categoria
+[2023-04-1008:14:21] [ ERROR] [CategoriaService:78] No existe un registro en la tabla Categoria con el id: 1
+[2023-04-1008:14:21] [ INFO ] [CategoriaService:36] La tabla Categoria no tiene registros
+[2023-04-1008:14:21] [ INFO ] [CategoriaService:29] Se creo una nueva categoria: Departamentos
+[2023-04-1008:14:21] [ ERROR] [CategoriaService:62] No existe una categoria con el id:1
+[2023-04-1008:14:21] [ ERROR] [CategoriaService:70] No existe una categoria con el titulo:titulo
+[2023-04-1008:14:21] [ ERROR] [CategoriaService:25] Ya existe una categoria con el titulo: Departamentos
+[2023-04-1008:14:21] [ ERROR] [CategoriaService:62] No existe una imagen con el titulo:imagen
+[2023-04-1008:14:21] [ ERROR] [CategoriaService:70] No existe un registro en la tabla Imagen con el id: 1
+[2023-04-1008:14:21] [ INFO ] [CategoriaService:74] Se modifico el registro con el id: 1 de la tabla Imagen
+[2023-04-1008:14:21] [ ERROR] [CategoriaService:54] No existe una imagen con el id:1
+[2023-04-1008:14:21] [ ERROR] [CategoriaService:25] Ya existe una imagen con el titulo: imagen
+[2023-04-1008:14:21] [ INFO ] [CategoriaService:81] Se elimino el registro con el id: 1 de la tabla Imagen
+[2023-04-1008:14:21] [ ERROR] [CategoriaService:29] No existe un producto con el id: 1
+[2023-04-1008:14:21] [ INFO ] [CategoriaService:33] Se creo una nueva imagen: imagen
+[2023-04-1008:14:21] [ INFO ] [CategoriaService:40] La tabla Imagen no tiene registros
+[2023-04-1008:14:21] [ INFO ] [CategoriaService:69] Se elimino el registro con el id: 1 de la tabla Usuarios
+[2023-04-1008:14:21] [ ERROR] [CategoriaService:35] No existe un rol con el id: 1
+[2023-04-1008:14:21] [ ERROR] [CategoriaService:31] El usuario con el email:email ya existe en la base de datos
+[2023-04-1008:14:21] [ INFO ] [CategoriaService:46] La tabla Usuario no tiene registros
+[2023-04-1008:14:21] [ INFO ] [ProductoService:77] La tabla Producto no tiene registros
+[2023-04-1008:14:21] [ INFO ] [ProductoService:117] No hay registro de productos en esa ciudad o no se encontro ciudad
+[2023-04-1008:14:21] [ INFO ] [ProductoService:64] La tabla Producto no tiene registros
+[2023-04-1008:14:21] [ ERROR] [ProductoService:156] No existe un registro para editar en la tabla Producto con el id: 1
+[2023-04-1008:14:21] [ INFO ] [ProductoService:186] Se modifico el registro con el id: 1 de la tabla Producto
+[2023-04-1008:14:21] [ ERROR] [ProductoService:31] Ya existe un producto con el titulo: Departamento
+[2023-04-1008:14:21] [ INFO ] [ProductoService:104] No hay registro de productos en esa categoria o no se encontro categoria
+[2023-04-1008:14:21] [ ERROR] [ProductoService:35] No existe una ciudad con el id: 1
+[2023-04-1008:14:21] [ INFO ] [ProductoService:245] Se elimino el registro con el id: 1 de la tabla Productos
+[2023-04-1008:14:21] [ ERROR] [CategoriaService:65] No existe un registro en la tabla Ciudad con el id: 1
+[2023-04-1008:14:21] [ ERROR] [CategoriaService:57] No existe una ciudad con el nombre:nombre
+[2023-04-1008:14:21] [ INFO ] [CategoriaService:69] Se modifico el registro con el id: 1 de la tabla Ciudad
+[2023-04-1008:14:21] [ ERROR] [CategoriaService:49] No existe una ciudad con el id:1
+[2023-04-1008:14:21] [ INFO ] [CategoriaService:76] Se elimino el registro con el id: 1 de la tabla Ciudad
+[2023-04-1008:14:21] [ ERROR] [CategoriaService:24] Ya existe una ciudad con el nombre: Mar del Plata
+[2023-04-1008:14:21] [ INFO ] [CategoriaService:35] La tabla Ciudad no tiene registros
+[2023-04-1008:14:21] [ INFO ] [CategoriaService:28] Se creo una nueva ciudad: Mar del Plata
+[2023-04-1711:52:11] [ ERROR] [ProductoService:178] El producto debe tener por lo menos una imagen
+[2023-04-1711:55:09] [ INFO ] [ProductoService:56] Se creo un nuevo producto: nuevo
+[2023-04-1711:56:51] [ ERROR] [ProductoService:178] El producto debe tener por lo menos una imagen
+[2023-04-1712:11:38] [ INFO ] [ProductoService:194] Se modifico el registro con el id: 32 de la tabla Producto
+[2023-04-1712:17:57] [ ERROR] [ProductoService:178] El producto debe tener por lo menos una imagen
+[2023-04-1712:23:24] [ INFO ] [ProductoService:194] Se modifico el registro con el id: 32 de la tabla Producto
+[2023-04-1712:24:31] [ INFO ] [ProductoService:194] Se modifico el registro con el id: 32 de la tabla Producto
+[2023-04-1712:25:43] [ INFO ] [ProductoService:194] Se modifico el registro con el id: 32 de la tabla Producto
+[2023-04-1712:27:13] [ INFO ] [ProductoService:194] Se modifico el registro con el id: 32 de la tabla Producto
+[2023-04-1712:28:11] [ INFO ] [ProductoService:194] Se modifico el registro con el id: 32 de la tabla Producto
+[2023-04-1712:39:38] [ INFO ] [ProductoService:194] Se modifico el registro con el id: 32 de la tabla Producto
+[2023-04-1712:47:51] [ INFO ] [ProductoService:194] Se modifico el registro con el id: 32 de la tabla Producto
+[2023-04-1712:52:00] [ INFO ] [ProductoService:194] Se modifico el registro con el id: 32 de la tabla Producto
+[2023-04-1715:31:14] [ INFO ] [ProductoService:194] Se modifico el registro con el id: 8 de la tabla Producto
+[2023-04-1715:34:00] [ INFO ] [ProductoService:194] Se modifico el registro con el id: 32 de la tabla Producto
+[2023-04-1716:13:51] [ INFO ] [ProductoService:194] Se modifico el registro con el id: 8 de la tabla Producto
+[2023-04-1716:27:07] [ INFO ] [ProductoService:194] Se modifico el registro con el id: 8 de la tabla Producto
+[2023-04-1716:28:13] [ INFO ] [ProductoService:194] Se modifico el registro con el id: 32 de la tabla Producto
+[2023-04-1716:32:11] [ INFO ] [ProductoService:194] Se modifico el registro con el id: 32 de la tabla Producto
+[2023-04-1716:33:56] [ INFO ] [ProductoService:194] Se modifico el registro con el id: 32 de la tabla Producto
+[2023-04-1716:40:40] [ INFO ] [ProductoService:194] Se modifico el registro con el id: 32 de la tabla Producto
+[2023-04-1716:43:06] [ INFO ] [ProductoService:194] Se modifico el registro con el id: 32 de la tabla Producto
+[2023-04-1718:55:21] [ INFO ] [ProductoService:194] Se modifico el registro con el id: 32 de la tabla Producto
+[2023-04-1719:08:03] [ INFO ] [ProductoService:194] Se modifico el registro con el id: 32 de la tabla Producto
+[2023-04-1719:09:03] [ INFO ] [ProductoService:194] Se modifico el registro con el id: 32 de la tabla Producto

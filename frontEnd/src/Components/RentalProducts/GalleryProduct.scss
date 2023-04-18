@@ -1,0 +1,40 @@
+@use '/src/sassStyles/globals';
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, minmax(200px, 1fr));
+  // grid-template-rows: repeat(2, 250px);
+  gap: 10px;
+  position: relative;
+  height: 40vw;
+  min-height: 400px;
+  max-height: 500px;
+
+  .main-picture {
+    grid-column:  1 / 3;
+    grid-row: 1 / 3;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: globals.$border-radius-lg;
+  }
+
+  .open-carrousel {
+    position: absolute;
+    color: globals.$text-light;
+    bottom: 20px;
+    right: 4%;
+    padding: 0;
+    background-color: transparent;
+    text-shadow: 1px 1px 10px black;
+  }
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}

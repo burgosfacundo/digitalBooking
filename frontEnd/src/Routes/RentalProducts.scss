@@ -1,0 +1,132 @@
+@use '/src/sassStyles/globals';
+
+.rental-products {
+
+  section {
+    margin-block: globals.$m-5;
+  }
+
+  .section-title {
+    color: globals.$text-gray-dark;
+    margin-bottom: globals.$m-3;
+    font-size: globals.$font-size-4;
+  }
+
+  p {
+    color: globals.$text-paragraph;
+    font-size: globals.$font-size-2;
+    font-weight: globals.$font-weight-md;
+  }
+
+  .section-divider {
+    border: none;
+    height: 1px;
+    background-color: globals.$primary-color;
+    margin-bottom: globals.$m-4;
+  }
+
+  .product__ammenities__items {
+    margin-block: globals.$m-4;
+    display: grid;
+    gap: 1rem 0.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 50px;
+
+    .item {
+      margin-block: 1rem;
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 10px;
+
+      h4 {
+        color: globals.$text-paragraph;
+        font-size: globals.$font-size-2;
+        font-weight: globals.$font-weight-md;
+        display: inline-block;
+      }
+
+      .ammenity-icon {
+        color: globals.$primary-color;
+        font-size: globals.$font-size-2;
+      }
+    }
+  }
+
+  .booking {
+    background-color: globals.$bg-light;
+    padding-block: globals.$p-4;
+    display: block;
+
+    &__body {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      align-items: center;
+      gap: 4rem;
+    }
+
+    &__call-to-action {
+      padding: globals.$p-3;
+      border-radius: globals.$border-radius-sm;
+      background-color: globals.$bg-white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+
+      h4 {
+        color: globals.$text-gray-dark;
+        font-size: globals.$font-size-3;
+      }
+
+      button, a {
+        width: 100%;
+      }
+
+    }
+  }
+}
+
+@media screen and (max-width: globals.$bp-laptop) {
+  .rental-products {
+    .booking .booking__body {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+
+      .booking__call-to-action {
+        flex-direction: row;
+
+        button, a {
+          flex: 0 1 300px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: globals.$bp-tablet) {
+  .rental-products {
+    .product__ammenities__items {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .booking .booking__body {
+      .booking__call-to-action {
+        flex-direction: column;
+
+        button, a {
+          flex: 1;
+        }
+      }
+
+    }
+  }
+}
+
+@media screen and (max-width: globals.$bp-mobile) {
+  .rental-products {
+    .product__ammenities__items {
+      grid-template-columns: 1fr;
+    }
+  }
+}

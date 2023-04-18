@@ -1,0 +1,81 @@
+// Color
+$primary-color: rgb(28, 191, 180);
+$bg-dark: rgba(25, 27, 29, 1);
+$bg-medium: rgba(49, 54, 63, 1);
+$bg-light: rgba(223, 228, 234, 1);
+$bg-white: #fff;
+$bg-gray: rgb(247, 247, 247);
+$bg-search: rgba(84, 87, 118);
+$input-error-bg: rgba(255, 225, 225, 1);
+$input-error-border:  rgba(255, 0, 0, 1);
+$input-error-msg: rgba(255, 0, 0, 1);
+$input-bg-light: rgb(248, 248, 248);
+
+$text-dark: rgba(25, 27, 29, 1);
+$text-gray: rgba(56, 59, 88, 1);
+$text-gray-dark: rgba(56, 59, 88, 1);
+$text-gray-light: rgba(56, 59, 88, 0.5);
+$text-medium: rgba(223, 228, 234, 1);
+$text-light: #fff;
+$text-placeholder: rgba(127, 127, 127, 1);
+$text-placeholder-city: #BEBEBE;
+$text-link: rgba(66, 133, 244, 1);
+$text-location: rgba(84, 87, 118, 1);
+$text-paragraph: rgba(79, 79, 80, 1);
+
+$underline-gray: rgba(190, 190, 190, 1);
+
+
+// Text
+$font-family-primary: 'Roboto', sans-serif;
+
+$font-weight-sm: 400;
+$font-weight-md: 500;
+$font-weight-lg: 700;
+
+$font-size-1: 12px;
+$font-size-2: 14px;
+$font-size-3: 16px;
+$font-size-4: 20px;
+$font-size-5: 24px;
+$font-size-6: 36px;
+
+// Radius
+$border-radius-sm: 5px;
+$border-radius-lg: 10px;
+
+// Margins
+$m-0: 0;
+$m-1: 0.25rem;
+$m-2: 0.5rem;
+$m-3: 0.75rem;
+$m-4: 1rem;
+$m-5: 2rem;
+$m-6: 3rem;
+$m-7: 5rem;
+
+// Paddings
+$p-0: 0;
+$p-1: 0.25rem;
+$p-2: 0.5rem;
+$p-3: 0.75rem;
+$p-4: 1rem;
+$p-5: 2rem;
+$p-6: 3rem;
+$p-7: 5rem;
+
+// Breakpoints (se pueden usar otros no definidos si la UI lo necesita)
+$bp-laptop: 1200px;
+$bp-ninehundred: 900px;
+$bp-tablet: 768px;
+$bp-menu-drawer: 600px;
+$bp-mobile: 480px;
+
+// MISC
+$header-height: 80px;
+$footer-height: 60px;
+$banner-height: 60px;
+
+:export {
+  bpTablet: $bp-tablet;
+}

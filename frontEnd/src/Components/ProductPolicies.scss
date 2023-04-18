@@ -1,0 +1,40 @@
+@use '/src/sassStyles/globals';
+
+.policy {
+  margin-bottom: globals.$m-5;
+  
+  .policy__items {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 4rem;
+    row-gap: 2rem;
+
+    .item {
+      flex-basis: 400px;
+    }
+
+    h4 {
+      color: globals.$text-location;
+      margin-bottom: globals.$m-4;
+      font-size: globals.$font-size-3;
+    }
+
+    p {
+      padding-block: globals.$p-4;
+      color: globals.$text-dark;
+    }
+  }
+}
+
+.politica-icon {
+  max-width: 1.2rem;
+  display: inline-block;
+  margin-bottom: -0.2rem;
+}
+
+.section-divider {
+  border: none;
+  height: 1px;
+  background-color: globals.$primary-color;
+  margin-bottom: globals.$m-4;
+}

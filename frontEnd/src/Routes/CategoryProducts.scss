@@ -1,0 +1,8 @@
+@use '/src/sassStyles/globals';
+
+.category-products {
+    .container-main.product-list {
+        padding-top: globals.$p-6;
+        padding-bottom: globals.$p-6;
+    }
+}

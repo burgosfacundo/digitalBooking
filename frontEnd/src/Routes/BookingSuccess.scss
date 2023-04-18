@@ -1,0 +1,49 @@
+@use '/src/sassStyles/globals';
+
+.container-page{
+    background-color: globals.$bg-gray;
+}
+
+.success-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.success-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // margin-top: 140px;
+    height: 302px;
+    width: 638px;
+    border: 1px solid #DFE4EA;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: globals.$bg-white;
+
+    img{
+        margin-bottom: 20px;
+    }
+
+    h2{
+        color: globals.$primary-color;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    p{
+        color: globals.$text-gray;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    button{
+        width: 206px;
+        height: 40px;
+        color: globals.$text-light;
+        background-color: globals.$primary-color;
+    }
+}

@@ -1,0 +1,333 @@
+@use '/src/sassStyles/globals';
+
+.booking-wrapper {
+  background-color: globals.$bg-light;
+  margin-bottom: globals.$m-4;
+  padding-top: globals.$p-4;
+}
+
+.booking {
+  display: grid;
+  column-gap: 30px;
+  grid-template-columns: 7fr minmax(300px, 4fr);
+
+  .form-container{
+    padding: globals.$p-3 globals.$p-2;
+    form  {
+      display: flex;
+      gap: 30px;
+
+      div {
+        width: 50%;
+
+        label:last-of-type {
+          margin-top: globals.$m-5;
+        }
+      }
+    }
+
+    label{
+        display: block;
+        color: globals.$text-gray;
+        font-size: 12px;
+        margin-bottom: globals.$p-2;
+        font-weight: 500;
+    }
+
+    input{
+        width: 100%;
+        height: 40px;
+        background-color: globals.$bg-gray;
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+        color: globals.$text-gray;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .cityInput{
+        background-color: globals.$bg-white;
+        color: globals.$text-placeholder-city;
+    }
+}
+
+
+  &__calendar {
+    grid-column: 1 / 2;
+  }
+
+  &__checkin-checkout {
+    grid-column: 1/ 2;
+
+    h4 {
+      color: globals.$text-dark;
+      margin-bottom: globals.$m-3;
+    }
+
+    p {
+      font-weight: globals.$font-weight-md;
+    }
+
+    span {
+      padding-right: globals.$p-1;
+    }
+
+    .wrapper-select {
+      width: 400px;
+      max-width: 100%;
+      border: 1px solid globals.$bg-light;
+      border-radius: globals.$border-radius-sm;
+      margin-top: globals.$m-2;
+      padding-right: globals.$p-2;
+      position: relative;
+
+      select {
+        border: none;
+        height: 100%;
+        width: 100%;
+        appearance: none;
+        outline: transparent;
+        padding: globals.$p-1;
+
+        &::-ms-expand {
+          display: none;
+        }
+      }
+
+      .dropdown-button {
+        color: globals.$primary-color;
+        position: absolute;
+        top: 50%;
+        right: 5px;
+        transform: translateY(-50%);
+      }
+
+
+    }
+
+  }
+
+  &__details {
+    margin-top: 36px; // para que esta seccion quede a nivel del formulario y no del titulo
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+
+    .section-wrapper {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      flex-grow: 1;
+      margin-top: globals.$m-2;
+
+      .form-message-error{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 10px;
+        padding: 10px;
+
+        margin-top: 20px;
+        max-width: 100%;
+        color: globals.$input-error-msg;
+
+        border: 0.5px solid globals.$input-error-border;
+        border-radius: 5px;
+        background-color: globals.$input-error-bg;
+      }
+
+      .message-visibility{
+        display: none;
+      }
+
+      &__info {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    }
+
+    img {
+      width: calc(100% + 2 * globals.$p-4); // expandir el ancho al doble de padding
+      margin-left: - globals.$m-4; // mover hacia la izquierda asi queda centrada la imagen
+      height: 320px;
+      object-fit: cover;
+      max-width: none;
+      flex-shrink: 0;
+    }
+
+    .rental-category {
+      margin-top: globals.$m-5;
+      font-size: globals.$font-size-2;
+      color: rgba(globals.$text-dark, 0.5);
+      text-transform: uppercase;
+    }
+
+    .rental-name {
+      font-size: globals.$font-size-5;
+      color: globals.$text-gray;
+      margin-bottom: globals.$m-1;
+    }
+
+    .rental-rating--stars {
+      color: globals.$primary-color;
+      font-size: globals.$font-size-1;
+      margin-bottom: globals.$m-4;
+    }
+
+    .rental-location {
+      font-size: globals.$font-size-2;
+      font-weight: globals.$font-weight-md;
+      margin-bottom: globals.$m-5;
+
+      span {
+        margin-right: globals.$p-1;
+      }
+    }
+
+    .check-info__wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-grow: 1;
+    }
+
+    .check-info__wrapper > *:not(hr, button) {
+      flex-grow: 1;
+    }
+
+    .check-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h4 {
+        font-size: globals.$font-size-3;
+        color: globals.$text-dark;
+      }
+
+      p {
+        font-size: globals.$font-size-2;
+        font-weight: globals.$font-weight-md;
+      }
+    }
+
+    hr {
+      height: 1px;
+      border: none;
+      background-color: #ccc;
+    }
+
+    button {
+      margin-top: globals.$m-4;
+      padding-block: globals.$p-4;
+    }
+  }
+
+
+  .section-wrapper {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: globals.$border-radius-lg;
+    background-color: globals.$bg-white;
+    padding: globals.$p-4;
+  }
+
+  p {
+    color: globals.$text-dark;
+  }
+
+}
+
+
+
+@media screen and (max-width: globals.$bp-laptop) {
+  .booking {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+
+    .form-message-error{
+      margin-top: 20px;
+      height: auto;
+      max-width: 100%;
+    }
+
+    &__details {
+      margin-top: 0;
+      grid-column: 1 / 2;
+
+      &__content {
+        flex-direction: row;
+
+        img {
+          width: 50%;
+          margin-left: 0;
+          border-radius: globals.$border-radius-sm;
+        }
+
+        &__info {
+          padding-inline: globals.$p-4;
+
+          .rental-category {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: globals.$bp-mobile) {
+
+  
+  .booking {
+
+    .form-message-error{
+      margin-top: 20px;
+    }
+
+    .form-container {
+      form{
+       display: flex;
+       flex-direction: column;
+       gap: 20px;
+ 
+       div {
+         width: 100%;
+
+        label:last-of-type {
+          margin-top: 20px;
+        }
+       }
+     }
+    }
+
+    &__details__content {
+      flex-direction: column;
+
+      img {
+        width: calc(100% + 2 * globals.$p-4); // expandir el ancho al doble de padding
+        margin-left: - globals.$m-4; // mover hacia la izquierda asi queda centrada la imagen
+        border-radius: 0;
+      }
+
+      &__info {
+        padding-inline: 0;
+
+        .rental-category {
+          margin-top: globals.$m-4;
+        }
+
+        .check-info {
+          padding-block: globals.$p-3;
+        }
+      }
+    }
+  }
+}

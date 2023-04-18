@@ -1,0 +1,21 @@
+@use '/src/sassStyles/globals';
+
+.not-found {
+  flex-direction: column;
+
+  h1 {
+    font-size: 40px;
+    color: #333;
+  }
+
+  h2 {
+    font-size: 20px;
+    color: #444;
+  }
+
+  .icon-404 {
+    font-size: 15rem;
+    color: #444;
+    margin-bottom: 3rem;
+  }
+}

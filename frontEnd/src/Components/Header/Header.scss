@@ -1,0 +1,164 @@
+@use '/src/sassStyles/globals';
+
+header {
+  width: 100%;
+  background-color: globals.$bg-white;
+  height: globals.$header-height;
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14), 0px 4px 5px rgba(0, 0, 0, 0.12), 0px 1px 10px rgba(0, 0, 0, 0.2);
+  z-index: 999999;
+
+  .container-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  .app-logo-link {
+    padding: 0;
+  }
+
+  .app-logo {
+    width: 100px;
+  }
+
+  .account-actions {
+    display: flex;
+    gap: 10px;
+
+    button {
+      display: inline-block;
+    }
+  }
+
+  .button-primary:hover{
+    background-color: globals.$text-medium;
+    color: globals.$primary-color;
+  }
+
+  .welcome-user{
+    font-size: 20px;
+    color: #191B1D;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+
+  .main-menu__hamburger {
+    background-color: transparent;
+    display: none;
+    padding: 0;
+    text-align: right;
+    font-size: 1.5rem;
+  }
+
+  .account-options {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .menu--admin {
+    position: relative;
+    width: 160px;
+    text-align: right;
+    cursor: pointer;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: globals.$p-3;
+    border-right: 2px solid globals.$primary-color;
+    
+
+    &__title {
+      color: globals.$text-dark;
+      font-size: globals.$font-size-3;
+      font-weight: globals.$font-weight-md;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &__title.selected {
+      color: globals.$primary-color;
+    }
+
+    &__options {
+      position: absolute;
+      right: 5px;
+      top: 40px;
+      background-color: #bdece8;
+      border-radius: globals.$border-radius-sm;
+      padding: globals.$p-2;
+      
+
+      li {
+        a {
+          width: 100%;
+          padding: 0.5rem;
+          font-size: globals.$font-size-2;
+          font-weight: globals.$font-weight-md;
+        }
+      }
+
+      hr {
+        height: 1px;
+        border: none;
+        background-color: #aaa;
+        margin-block: globals.$p-1;
+      }
+      // li {
+      //   border: 1px solid #aaa;
+      //   border-radius: globals.$border-radius-sm;
+      // }
+    }
+  }
+
+  .menu--admin__title:hover {
+    color: globals.$primary-color;
+  }
+
+  .menu--admin__options li:hover {
+    background-color: globals.$primary-color;
+    border-radius: globals.$border-radius-sm;
+  }
+
+  // .menu--admin::before {
+  //   content: '';
+  //   display: block;
+  //   width: 200px;
+  //   height: 200px;
+  // }
+
+  
+  .reservas__link {
+    border: 2px solid globals.$primary-color;
+  }
+}
+
+@media screen and (max-width: globals.$bp-menu-drawer) {
+  header {
+    .account-options {
+      display: none;
+    }
+
+    .main-menu__hamburger {
+      display: block;
+    }
+
+    .welcome-user{
+      display: none;
+    }
+
+    .button-logout{
+      display: none;
+    }
+
+    .user-profile {
+      display: none;
+    }
+  }
+}

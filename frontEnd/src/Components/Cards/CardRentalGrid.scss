@@ -1,0 +1,167 @@
+@use '/src/sassStyles/globals';
+
+.card-rental {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: globals.$text-dark;
+    border-radius: globals.$border-radius-lg;
+    background-color: globals.$bg-white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex-basis: 600px;
+    min-height: 300px;
+    flex-grow: 1;
+
+    &__img {
+        height: 100%;
+        flex-basis: 95%;
+        border-radius: globals.$border-radius-lg;
+        overflow: hidden;
+
+        img {
+            height: 100%;
+            max-height: 300px;
+            width: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+    }
+
+    &__info {
+        padding: 1rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-basis: 100%;
+        min-width: 300px;
+    }
+
+    &__head {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: globals.$m-4;
+
+        &--main {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .upper-title {
+                display: flex;
+                gap: 0.5rem;
+                align-items: center;
+
+                h3 {
+                    font-size: globals.$font-size-2;
+                }
+
+                .rental-rating--stars {
+                    color: globals.$primary-color;
+                    font-size: globals.$font-size-1;
+                    margin-bottom: 2px; // Sirve para centrar las estrellas
+                }
+            }
+
+            .rental-name {
+                font-size: globals.$font-size-5;
+            }
+        }
+
+        .rental-rating--score {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: space-between;
+            text-align: center;
+
+            .score--number {
+                padding: globals.$p-1 globals.$p-3;
+                background-color: globals.$bg-dark;
+                border-radius: globals.$border-radius-lg;
+                width: fit-content;
+                font-size: globals.$font-size-4;
+                margin-bottom: globals.$m-1;
+            }
+
+            .score--description {
+                font-size: globals.$font-size-2;
+                font-weight: globals.$font-weight-lg;
+            }
+        }
+
+
+    }
+
+    &__meta {
+        padding-bottom: globals.$p-4;
+
+        p {
+            font-size: globals.$font-size-2;
+            font-weight: globals.$font-weight-md;
+        }
+
+        span {
+            padding-right: globals.$p-2;
+        }
+
+        .show-map {
+            color: globals.$primary-color;
+        }
+
+        .rental-amenities {
+            padding-top: globals.$p-2;
+            img {
+                display: inline-block;
+                margin-right: 0.4rem;
+                max-width: 1.3rem;
+            }
+            img:last-child {
+                margin-right: 0rem;
+            }
+        }
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        p {
+            font-size: globals.$font-size-2;
+            font-weight: globals.$font-weight-md;
+            padding-bottom: globals.$p-3;
+
+            .more-description {
+                padding-left: globals.$p-2;
+                color: globals.$primary-color;
+            }
+        }
+
+    }
+
+    .button--read-more {
+        padding: globals.$p-3;
+        border-radius: globals.$border-radius-sm;
+        width: 100%;
+    }
+}
+
+.card-rental.empty {
+    box-shadow: 0 0 0;
+    background: transparent;
+}
+
+@media screen and (max-width: globals.$bp-mobile) {
+    .card-rental {
+        flex-direction: column;
+        height: 500px;
+        
+        &__info {
+            width: 100%;
+        }
+
+        &__img {
+            width: 100%;
+        }
+    }
+}

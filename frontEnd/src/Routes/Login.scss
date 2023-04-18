@@ -1,0 +1,73 @@
+@use '/src/sassStyles/globals';
+
+// TODO: Unificar estilos los contenedores de Crear usuario y login
+
+.button-login:hover{
+    transition: 0.3s;
+    background-color: #191B1D;
+    cursor: pointer;
+}
+
+.label-error{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 14px;
+    color: red;
+    background: rgb(224, 204, 204);
+    font-family: "Roboto", sans-serif;
+}
+
+.label-alert{
+    width: 300px;
+    height: fit-content;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: red;
+    background: rgb(224, 204, 204);
+    font-family: "Roboto", sans-serif;
+}
+
+.close {
+    cursor: pointer;
+    position: relative;
+    left: 150px;
+    width: 35px;
+    top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #F3F1ED;
+    background-color: #31363F;
+    transition: 0.3s;
+}
+
+.close:hover{
+    transition: 0.3s;
+    background-color: #191B1D;
+    cursor: pointer;
+}
+
+
+.register-click{
+    font-weight: 600;
+    color: #31363F;
+    font-family: "Roboto", sans-serif;
+}
+
+.register-click:hover{
+    transition: 0.3s;
+    color: #191B1D;
+    cursor: pointer;
+}
+

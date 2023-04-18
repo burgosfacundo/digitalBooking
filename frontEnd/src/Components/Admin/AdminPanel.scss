@@ -1,0 +1,177 @@
+@use '/src/sassStyles/globals';
+
+.admin-rental-wrapper {
+  background-color: globals.$bg-light;
+  padding: globals.$p-5 0;
+
+  .heading-containter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: globals.$p-4;
+
+  }
+
+  h1 {
+    font-size: globals.$font-size-5;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  input, textarea, select {
+    // background-color: globals.$input-bg-light;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);;
+  }
+
+  .section-wrapper {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: globals.$border-radius-lg;
+    background-color: globals.$bg-white;
+    padding: globals.$p-4;
+  }
+
+  .main-form__container {
+    all: unset;
+  }
+
+  section {
+    padding-inline: globals.$p-3;
+  }
+
+  .rental__general {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+
+    .form-control:last-of-type {
+      grid-column: 1 / 3;
+    }
+
+    textarea {
+      height: 300px;
+    }
+  }
+
+  .rental__properties {
+
+    .amenities-wrapper {
+      display: grid;
+      grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+      padding-inline: 2rem;
+    }
+
+    input[type="checkbox"] {
+      width: auto;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+
+    label {
+      display: inline;
+      padding-bottom: 0;
+      line-height: 10px;
+    }
+  }
+
+  .policies__container {
+    box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: globals.$p-4;
+    border-radius: globals.$border-radius-sm;
+    margin-top: globals.$m-4;
+
+    .policy__container {
+      width: 100%;
+    }
+
+    h3 {
+      font-size: globals.$font-size-3;
+      color: globals.$text-gray;
+    }
+
+    p {
+      font-size: globals.$font-size-2;
+      color: globals.$text-gray;
+      text-align: left;
+      margin-bottom: globals.$m-2;
+    }
+
+    textarea {
+      width: 100%;
+      height: 200px;
+      resize: vertical;
+    }
+  }
+
+  .rental__images {
+    
+    h2 {
+
+      span {
+        display: inline-block;
+
+        svg {
+          vertical-align: middle;
+          margin-bottom: 0.1rem;
+        }
+      }
+    }
+
+    .form-control {
+      display: grid;
+      grid-template-columns: 1fr 50px;
+      gap: 10px;
+      max-width: 700px;
+
+      .inputs {
+        display: flex;
+        gap: 10px;
+
+        input:first-of-type {
+          flex-basis: 250px;
+        }
+      }
+
+
+
+      button {
+        margin: 0;
+        background-color: rgb(252, 127, 127);
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
+
+.loading-status {
+  font-size: 3rem;
+  color: globals.$text-dark;
+}
+
+@media screen and (max-width: globals.$bp-laptop) {
+  .admin-rental-wrapper {
+
+    .policies__container {
+      flex-direction: column;
+    }
+  }
+}
+
+@media screen and (max-width: globals.$bp-tablet) {
+  .admin-rental-wrapper {
+
+    .heading-containter {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .rental__general {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

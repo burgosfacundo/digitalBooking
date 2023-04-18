@@ -1,0 +1,228 @@
+@use '/src/sassStyles/globals';
+
+.home-search {
+  > .container-main {
+    width: 100%;
+    text-align: center;
+    background-color: globals.$bg-search;
+    padding: globals.$p-4;
+    max-width: none;
+
+    h1 {
+      font-size: globals.$font-size-6;
+      padding-bottom: globals.$m-4;
+    }
+  }
+
+  .form-error {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 85%;
+    padding-top: 0.5rem;
+  }
+
+  .search-by-location-date {
+    gap: globals.$m-1;
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 85%;
+    display: flex;
+
+    > div,
+    .select-search-container,
+    .select-search-value,
+    .search-location {
+      flex: 1;
+      display: flex;
+    }
+
+    .search-location,
+    .search-dates {
+      position: relative;
+      text-align: left;
+
+      svg {
+        position: absolute;
+        box-sizing: border-box;
+        top: 50%;
+        left: globals.$m-2;
+        transform: translateY(-60%);
+        color: globals.$text-placeholder;
+      }
+
+      > input, .search-location-value {
+        padding-left: 1.75rem;
+      }
+    }
+
+    .search-location-menu-list {
+      > div {
+        padding: 0rem 0.7rem;
+        margin-top: -1px;
+      }
+    }
+
+    .search-location-option {
+      text-align: left;
+      display: flex;
+      padding: 0.7rem 0;
+      border-bottom: 1px solid globals.$primary-color;
+
+      .search-location-option-icon {
+        flex: 0 1 auto;
+        align-self: center;
+        padding-right: globals.$p-2;
+        color: globals.$text-gray;
+      }
+
+      .search-location-option-value {
+        flex: 1 1 auto;
+        font-weight: bold;
+        color: globals.$text-location;
+      }
+
+      .search-location-option-city {
+        color: globals.$text-dark;
+        font-size: 16px;
+        font-weight: bold;
+      }
+    }
+
+    .search-location-option-focused, .search-location-option-selected {
+      background-color: globals.$primary-color;
+
+      .search-location-option-value, .search-location-option-city, .search-location-option-icon {
+        color: globals.$text-light;
+      }
+    }
+
+    .search-location-messages {
+      padding: 0.7rem;
+    }
+
+    .react-datepicker-wrapper, .react-datepicker__input-container, .search-dates {
+      display: flex;
+    }
+
+    .search-dates {
+      flex: 1;
+    }
+  }
+
+  .search-result-title {
+    padding-top: 1%;
+    .text-primary {
+      color: globals.$primary-color;
+    }
+  }
+}
+
+.calendar-container {
+  .react-datepicker__header {
+    background-color: globals.$bg-white;
+    border: 0;
+  }
+
+  .react-datepicker__current-month {
+    text-transform: capitalize;
+  }
+
+  .react-datepicker__month-container{
+    border-right: 1px solid #A8A8A8;
+    padding-right: 10px;
+  }
+
+  .react-datepicker__month-container:last-child {
+    border-right: 0;
+    padding-right: 0;
+  }
+
+  .react-datepicker__navigation--previous,
+  .react-datepicker__navigation--next,
+  .react-datepicker__month-container {
+    margin-top: globals.$m-4;
+  }
+
+  .react-datepicker__day {
+    border-radius: 1rem;
+  }
+  .react-datepicker__day--today {
+    background-color: globals.$bg-light;
+  }
+  .react-datepicker__day--selected, .react-datepicker__day--in-range, .react-datepicker__day--keyboard-selected {
+    background-color: globals.$primary-color;
+    color: globals.$text-light;
+  }
+  .react-datepicker__day--in-selecting-range {
+    background-color: globals.$text-medium;
+    color: globals.$primary-color;
+  }
+  .calendar-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .calendar-options {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 50%;
+      margin-left: auto;
+      padding: globals.$p-2;
+      padding-top: globals.$p-0;
+      align-items: center;
+
+      .button-primary {
+        display: inline-block;
+        width: fit-content;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: globals.$bp-mobile) and (max-width: globals.$bp-tablet) {
+  .home-search {
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    .search-by-location-date {
+      > .button-primary {
+        flex: 0.5;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: globals.$bp-mobile) {
+  .home-search {
+    .search-by-location-date {
+      flex-direction: column;
+      max-width: 100%;
+    }
+
+    // CALENDAR
+    .react-datepicker-popper {
+      width: 96%;
+    }
+
+    .react-datepicker {
+      display: block;
+      margin: 0
+    }
+
+    .react-datepicker__month-container {
+      float: none;
+      width: 100%;
+      padding-right: 0;
+      border-right: none;
+    }
+
+    .calendar-footer {
+     justify-content: center;
+      .calendar-options {
+        margin-left: 0;
+      }
+    }
+  }
+}

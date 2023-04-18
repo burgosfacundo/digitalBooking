@@ -1,0 +1,118 @@
+@use '/src/sassStyles/globals';
+
+.hero__products {
+
+  &__banner {
+    background-color: globals.$bg-light;
+    padding-block: globals.$p-2;
+
+    .container-main {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .fa-location-dot {
+      max-width: 10px;
+      align-self: flex-start;
+    }
+
+    .rating {
+      margin-left: auto;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .rating__left {
+      text-align: end;
+    }
+
+    .rating-stars {
+      color: globals.$primary-color;
+    }
+
+    .rating__right {
+      padding: globals.$p-1 globals.$p-3;
+      color: globals.$bg-gray;
+      font-size: globals.$font-size-5;
+      font-weight: globals.$font-weight-lg;
+      background-color: globals.$bg-search;
+      border-radius: globals.$border-radius-lg;
+    }
+
+    p {
+      color: globals.$text-dark;
+      font-size: globals.$font-size-2;
+      font-weight: globals.$font-weight-md;
+    }
+
+  }
+
+  &__actions {
+    padding-block: globals.$p-3;
+
+    .container-main {
+      display: flex;
+      gap: 15px;
+    }
+
+    .icon {
+      font-size: globals.$font-size-5;
+      cursor: pointer;
+    }
+
+    .icon-heart:hover {
+      color: red;
+    }
+
+    .icon-share-container {
+      position: relative;
+
+      ul {
+        display: none;
+        background: #fff;
+        list-style: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1;
+        min-width: 200px;
+
+        button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          svg {
+            margin-right: 0.5rem;
+          }
+        }
+
+        li {
+          padding: globals.$p-2;
+          border-bottom: 1px solid globals.$primary-color;
+        }
+
+        li:hover {
+          color: #fff;
+          background: globals.$primary-color;
+        }
+      }
+    }
+
+    .icon-share-container:hover {
+      ul {
+        display: inline-block;
+      }
+
+      .icon-share {
+        color: globals.$primary-color;
+      }
+    }
+  }
+
+
+}

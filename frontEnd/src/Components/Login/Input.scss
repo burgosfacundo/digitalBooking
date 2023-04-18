@@ -1,0 +1,22 @@
+@use '/src/sassStyles/globals';
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.input-form {
+
+    height: 35px;
+    border-radius: globals.$border-radius-sm;
+    border: none;
+    padding: 0 10px 0 20px;
+    color: globals.$text-dark;
+    font-size: globals.$font-size-1;
+    outline: none;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    
+}
+

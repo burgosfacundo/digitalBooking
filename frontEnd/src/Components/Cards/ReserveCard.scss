@@ -1,0 +1,82 @@
+@use "/src/sassStyles/globals";
+
+.reserve-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  max-width: 80%;
+  width: 300px;
+  margin: 20px;
+  margin-top: 50px;
+  border-radius: globals.$border-radius-lg;
+  background-color: globals.$bg-white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  img {
+    object-fit: cover;
+    border-radius: globals.$border-radius-lg;
+    width: 300px;
+    height: 200px;
+  }
+
+  .reserve-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    h2 {
+      color: globals.$text-gray;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: globals.$text-gray;
+      font-size: globals.$font-size-2;
+      font-weight: globals.$font-weight-md;
+      margin-bottom: 10px;
+
+      span {
+        color: globals.$text-dark;
+      }
+    }
+
+    button {
+      width: 200px;
+      color: globals.$text-light;
+      background-color: globals.$primary-color;
+    }
+  }
+}
+
+@media screen and (max-width: globals.$bp-ninehundred) {
+  .reserve-card {
+    flex-direction: column;
+    height: auto;
+    width: 220px;
+
+    .reserve-details {
+      
+      margin-bottom: 20px;
+      align-items: center;
+      padding-left: 0;
+    }
+  }
+}
+
+@media screen and (max-width: globals.$bp-tablet) {
+  .reserve-card {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+
+    .reserve-details {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      align-items: center;
+      padding-left: 0;
+    }
+  }
+}

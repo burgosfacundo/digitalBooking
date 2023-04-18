@@ -1,0 +1,10 @@
+@use '/src/sassStyles/globals';
+
+.label-container{
+    width: 100%;
+    color: globals.$text-dark;
+    font-weight: 600;
+    margin-top: 13px;
+    margin-bottom: 5px;
+    font-size: globals.$font-size-1;
+}

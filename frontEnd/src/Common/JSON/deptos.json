@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "img": "src/assets/Images/hotel-img-1.png",
+      "category": "DEPTO",
+      "title": "Hermitage Hotel",
+      "location": "Buenos Aires",
+      "description": "Voluptatem si velit nostrum, or velit in. Aut omnis and nequeporro ipsa but molestiae. Vitae."
+    },
+    {
+      "id": 2,
+      "img": "src/assets/Images/hotel-img-2.png",
+      "category": "DEPTO",
+      "title": "Sheraton Hotel",
+      "location": "Mendoza",
+      "description": "Voluptatem si velit nostrum, or velit in. Aut omnis and nequeporro ipsa but molestiae. Vitae."
+    },
+    {
+      "id": 3,
+      "img": "src/assets/Images/hotel-img-3.png",
+      "category": "HOSTEL",
+      "title": "Bonito Hostel",
+      "location": "La Pampa",
+      "description": "Voluptatem si velit nostrum, or velit in. Aut omnis and nequeporro ipsa but molestiae. Vitae."
+    },
+    {
+      "id": 4,
+      "img": "src/assets/Images/hotel-img-4.jpg",
+      "category": "HOSTEL",
+      "title": "Digital Hostel",
+      "location": "Rio Negro",
+      "description": "Voluptatem si velit nostrum, or velit in. Aut omnis and nequeporro ipsa but molestiae. Vitae."
+    },
+    {
+      "id": 5,
+      "img": "src/assets/Images/hotel-img-5.jpg",
+      "category": "CASA",
+      "title": "Linda Casa",
+      "location": "Córdoba",
+      "description": "Voluptatem si velit nostrum, or velit in. Aut omnis and nequeporro ipsa but molestiae. Vitae."
+    },
+    {
+      "id": 6,
+      "img": "src/assets/Images/hotel-img-6.jpg",
+      "category": "CASA",
+      "title": "Hermosa Casa",
+      "location": "Misiones",
+      "description": "Voluptatem si velit nostrum, or velit in. Aut omnis and nequeporro ipsa but molestiae. Vitae."
+    },
+    {
+      "id": 7,
+      "img": "src/assets/Images/hotel-img-7.png",
+      "category": "MONO A.",
+      "title": "Lindo Ambiente",
+      "location": "Catamarca",
+      "description": "Voluptatem si velit nostrum, or velit in. Aut omnis and nequeporro ipsa but molestiae. Vitae."
+    },
+    {
+      "id": 8,
+      "img": "src/assets/Images/hotel-img-8.png",
+      "category": "MONO A.",
+      "title": "Cool Ambiente",
+      "location": "Jujuy",
+      "description": "Voluptatem si velit nostrum, or velit in. Aut omnis and nequeporro ipsa but molestiae. Vitae."
+    }
+  ]
+  

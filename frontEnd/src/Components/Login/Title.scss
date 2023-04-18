@@ -1,0 +1,15 @@
+@use '/src/sassStyles/globals';
+
+.title-container {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        color: globals.$primary-color;
+        margin-bottom: 1vh;
+    }
+}

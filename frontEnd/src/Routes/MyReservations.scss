@@ -1,0 +1,71 @@
+@use '/src/sassStyles/globals';
+
+.reservation-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.reservation-title{
+    background-color: globals.$bg-search;
+    color: globals.$text-light;
+
+    padding: globals.$p-4;
+    padding-left: globals.$p-5;
+
+    font-size: globals.$font-size-4;
+    font-weight: globals.$font-weight-md;
+}
+
+.no-reservation-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .no-reservation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+        height: 302px;
+        width: 638px;
+        border: 1px solid #DFE4EA;
+        border-radius: 8px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        background-color: globals.$bg-white;
+
+        .no-reservation-icon{
+            color: globals.$primary-color;
+        }
+
+        h2{
+            color: globals.$text-gray;
+            margin-top: 30px;
+        }
+
+        h4{
+            color: globals.$text-gray;
+            margin-top: 15px;
+            transition: .3s;
+        }
+
+        h4:hover{
+            color: globals.$text-dark;
+            transition: .3s;
+        }
+    }
+}
+
+@media screen and (max-width: globals.$bp-tablet) {
+    .reservation-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+
